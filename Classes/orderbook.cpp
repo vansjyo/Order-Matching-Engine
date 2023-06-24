@@ -13,9 +13,10 @@ public:
     Limit* bestSell;
     Limit* bestBuy;
 
-    void printBook (int depth) 
+    void printBook ( int depth ) 
     {
-        if( depth > 50 ) {
+        if( depth > 50 ) 
+        {
             cout << "Error: Cannot request depth more than 50\n";
             return;
         }
@@ -54,8 +55,20 @@ public:
 
     }
 
-    void removeOrderFromQueue (int idx) 
-    {
+    // void removeOrderFromQueue ( types ordertype, int idx ) 
+    // {
+    //     switch ( ordertype )
+    //     {
+    //         case BUY:
+    //             buySide[idx].numberOfOrders -= 1;
+    //             sellSide[idx].volume -= size;
+    //             break;
+    //         case SELL:
+    //             break;
+    //         default:
+    //             break;
+    //     }
         
-    }
+    // } 
+
 };

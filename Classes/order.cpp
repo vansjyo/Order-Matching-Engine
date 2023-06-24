@@ -23,7 +23,7 @@ public:
                 break;
 
             default:
-                return ERR_STATE;
+                return ORDER_ERR_STATE;
                 
         }
 
@@ -34,7 +34,7 @@ public:
                 break;
             
             default:
-                return ERR_SIZE;
+                return ORDER_ERR_SIZE;
 
         }
 
@@ -44,7 +44,7 @@ public:
         if ( next != nullptr ) next->prev = prev;
         next = nullptr;
         prev = nullptr;
-        return SUCCESS;
+        return ORDER_SUCCESS;
         
     }
     

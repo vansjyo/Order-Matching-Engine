@@ -87,14 +87,14 @@ int main() {
                                 break;
                             }
  
-                            bool FLAG = 1;
+                            bool FLAG = 1; // denoted red flag is on
                             switch ( order->cancelOrder(size) )
                             {
-                                case ERR_SIZE:
+                                case ORDER_ERR_SIZE:
                                     logMessage ( "Cannot place partial or larger cancel orders on Exchange", logFile );
                                     break;
 
-                                case ERR_STATE:
+                                case ORDER_ERR_STATE:
                                     logMessage ( "Order status cannot be changed.", logFile );
                                     break;
                                 
@@ -107,8 +107,21 @@ int main() {
                             if ( FLAG ) break;
 
                             long int idx = sellOrderMap.at(orderId)->limitPrice;
-                            book.sellSide[idx].numberOfOrders -= 1;
-                            book.sellSide[idx].volume -= size;
+                            Limit limit = book.sellSide[idx];
+
+                            FLAG = 1;
+                            switch ( limit.removeOrderFromQueue(order) ) 
+                            {
+                                case LIMIT_ERR:
+                                    logMessage ( "Could not remove order from Queue. Some error occured", logFile );
+                                    break;
+
+                                case LIMIT_SUCCESS:
+                                    FLAG = 0;
+                                    logMessage ( "Order " + to_string(orderId) + " removed from the Queue successfully.", logFile );
+                                    break;
+                            }
+                            if ( FLAG ) break; //currently seems like not needed since break anyways, but maybe later would be useful
 
                             break;
                         
