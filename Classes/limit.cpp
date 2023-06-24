@@ -8,15 +8,11 @@ public:
     int volume = 0;
     int numberOfOrders = 0;
 
-    // LimitTree* left;
-    // LimitTree* right;
-    // LimitTree* parent;
-
-    limit_err_codes removeOrderFromQueue( const Order* order ) 
+    limit_err_codes removeOrderFromQueue ( const Order* order ) 
     {
         numberOfOrders -= 1;
         volume -= order->size;
-        
+
         if ( head == nullptr || tail == nullptr ) //safety check for debugging the program
         {
             cout << "How is the head/tail null?\n";
@@ -37,6 +33,15 @@ public:
         return LIMIT_SUCCESS;
 
     } 
+
+    bool isEmpty () 
+    {
+        if ( head == nullptr && tail == nullptr ) 
+        {
+            return true;
+        }
+        return false;
+    }
 };
 
 
