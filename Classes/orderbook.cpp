@@ -58,8 +58,57 @@ public:
 
     }
 
+
+    // removes the order from the queue and orderbook
+    // input:  Order* order
+    // output: Enum indicating sucess of execution
+    limit_err_codes removeSellOrderFromBook ( Order* order ) 
+    {
+        // the order has already been voided i.e. status changed to cancelled and next/prev set to nullptr 
+        // but we need to remove it from the queue now and reset the best sell if applicable
+
+        int price = order->limitPrice;
+
+        Limit* limit = sellSide[price];
+
+        // call the RemoveOrderFromQueue function
+        switch ( limit->removeOrderFromQueue ( order ) ) 
+        {
+            case LIMIT_ERR:
+                return LIMIT_ERR;
+                break;
+
+            case LIMIT_SUCCESS:
+                order->actionDate = std::chrono::system_clock::now();
+                order->prev = nullptr;
+                order->next = nullptr;
+                numberOfSellOrders -= 1;
+
+                if ( limit->numberOfOrders == 0 ) sellSide[price] = nullptr;
+
+                if ( bestSell->price == order->limitPrice )
+                {
+                    bestSell = limit;
+
+                    // if the cancelled order was from the best sell Limit object and this was the only order in the limit, move to next valid Sell order
+                    if ( limit->numberOfOrders == 0 )
+                    {
+                        int k = price;
+                        while ( sellSide[k] == nullptr || sellSide[k]->numberOfOrders == 0 ) { k++; }
+                        bestSell = sellSide[k];
+                    }
+                }
+                return LIMIT_SUCCESS;
+
+                break;
+        }
+
+    }
+
+    
+
     // handles adding the order and updating everything
-    void addSellOrderToBook ( Order* order ) 
+    limit_err_codes addSellOrderToBook ( Order* order ) 
     {
         // check if the array position at idx is nullptr
         int price = order->limitPrice;
@@ -76,7 +125,7 @@ public:
                 {
                     bestSell = limit;
 
-                    if ( bestSell->price >= bestBuy->price ) 
+                    if ( bestSell->price <= bestBuy->price ) 
                     {
                         // run the matching engine
                     }  

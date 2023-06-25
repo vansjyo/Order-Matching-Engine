@@ -65,7 +65,7 @@ int main() {
                             // go to the position in the double linked list, remove the order and reset the linked list
                             // update the volume of the limit object
                             // look up the order in the sell order map, change status to cancelled, left and right pointers as nullptr
-                            // check if that was the only order in the queue of the limit, if yes, 
+                            // check if that was the only order in the queue of the limit, if yes, need to change best sell if that was the best sell
                             // log message cancel successfull and perhaps remove the order from the Order Map and save it in archive/disc
 
                             
@@ -139,15 +139,13 @@ int main() {
                             if ( FLAG ) break;
 
                             FLAG = 1;
-                            switch ( limit->removeOrderFromQueue ( order ) ) 
+                            switch ( book.removeSellOrderFromBook ( order ) ) 
                             {
                                 case LIMIT_ERR:
                                     logMessage ( "Could not remove order from Queue. Some error occured", logFile );
                                     break;
 
                                 case LIMIT_SUCCESS:
-                                    order->actionDate = std::chrono::system_clock::now();
-                                    book.numberOfSellOrders -= 1;
                                     FLAG = 0;
                                     logMessage ( "Order " + to_string(orderId) + " removed from the Queue successfully.", logFile );
                                     break;

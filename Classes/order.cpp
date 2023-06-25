@@ -50,8 +50,9 @@ public:
         actionDate = std::chrono::system_clock::now();
         if ( prev != nullptr ) prev->next = next;
         if ( next != nullptr ) next->prev = prev;
-        next = nullptr;
-        prev = nullptr;
+        // this step must not be done here since we will require it while executing-> removeOrderFromQueue ( Order* order )
+        // next = nullptr;
+        // prev = nullptr;
         return ORDER_SUCCESS;
         
     }
