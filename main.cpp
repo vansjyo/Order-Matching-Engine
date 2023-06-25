@@ -31,6 +31,22 @@ int main() {
             // For Cancel Orders: "SELL/BUY CANCEL ORDER_ID SIZE"
             getArrayFromLine(line, row);
 
+            if( row[0] == "printorderbook" ) 
+            {
+                int depth = 50;
+                try
+                {
+                    depth = stoi ( row[1] );
+                }
+                catch(const std::exception& e)
+                {
+                    cerr << "Order Book Depth: " << e.what();
+                    logMessage ( "Book Depth: " + row[2] + " not an integer, so priting 50 depth by default", logFile );
+                }
+                book.printBook(depth);
+                continue;
+            }
+
             types orderType = ( getOrderType.find(row[0][0]) == getOrderType.end() ) ? NONE_TYPE : getOrderType.at(row[0][0]);
             actions orderAction = ( getOrderAction.find(row[1][0]) == getOrderAction.end() ) ? NONE_ACTION : getOrderAction.at(row[1][0]);
 
@@ -59,7 +75,7 @@ int main() {
                             {
                                 orderId = stoi ( row[2] );
                             }
-                            catch(const std::exception& e)
+                            catch (const std::exception& e)
                             {
                                 cerr << "Order ID: " << e.what();
                                 logMessage ( "Order ID" + row[2] + " not an integer", logFile );
@@ -72,7 +88,7 @@ int main() {
                             {
                                 size = stoi ( row[3] );
                             }
-                            catch(const std::exception& e)
+                            catch (const std::exception& e)
                             {
                                 cerr << "Order Size: " << e.what();
                                 logMessage ( "Order size" + row[3] + " not an integer", logFile );
@@ -85,16 +101,18 @@ int main() {
                             {
                                 order = sellOrderMap.at(orderId);
                             }
-                            catch(const std::exception& e)
+                            catch (const std::exception& e)
                             {
                                 cerr <<  ": Order ID not found" << e.what();
                                 logMessage ( "Order ID " + to_string(orderId) + "not found in the Exchange.", logFile );
                                 break;
                             }
 
-                            long int idx = sellOrderMap.at(orderId)->limitPrice;
-                            Limit limit = book.sellSide[idx];
-                            if ( limit.isEmpty() ) 
+                            int idx = sellOrderMap.at(orderId)->limitPrice;
+                            Limit* limit = book.sellSide[idx];
+
+                            // check if the queue is empty or not
+                            if ( limit == nullptr || limit->isEmpty() ) 
                             {
                                 logMessage ( " Limit Empty: No order found in the Queue for Limit Price " + to_string(idx) , logFile );
                                 break;
@@ -102,7 +120,7 @@ int main() {
 
                             // cancel order
                             bool FLAG = 1; // denoted red flag is on
-                            switch ( order->cancelOrder(size) )
+                            switch ( order->cancelOrder ( size ) )
                             {
                                 case ORDER_ERR_SIZE:
                                     logMessage ( "Cannot place partial or larger cancel orders on Exchange", logFile );
@@ -120,16 +138,16 @@ int main() {
 
                             if ( FLAG ) break;
 
-                            
-
                             FLAG = 1;
-                            switch ( limit.removeOrderFromQueue(order) ) 
+                            switch ( limit->removeOrderFromQueue ( order ) ) 
                             {
                                 case LIMIT_ERR:
                                     logMessage ( "Could not remove order from Queue. Some error occured", logFile );
                                     break;
 
                                 case LIMIT_SUCCESS:
+                                    order->actionDate = std::chrono::system_clock::now();
+                                    book.numberOfSellOrders -= 1;
                                     FLAG = 0;
                                     logMessage ( "Order " + to_string(orderId) + " removed from the Queue successfully.", logFile );
                                     break;
@@ -141,14 +159,25 @@ int main() {
                             
                         
                         case ADD:
+                            // do the check if the order ID already exists, increase the counter 
+                            // create the object instance with fetched order price and limit size
+                            // add the pointer to the order to the order Map
+                            // write method for this: AddOrderToQueue (pass pointer to object) 
+                            // check if any limit queue at that price exists, if no, simple, assign head and tail of it to this order
+                            // if yes, append it to the tail of the queue
+                            // compare the limit price of this order to the lowest sell 
+                            // update the best sell if => limit queue did not exist at this price AND if this is lower than previous best sell
+                            // log message that order is added to the queue
+                            // write a function: matchOrder() which is executed when any order is cancelled or added (especially)
+
                             
                             // check if the order Price is feasible
-                            int orderPrice;
+                            int price;
                             try
                             {
-                                orderPrice = stoi( row[2] );
+                                price = stoi ( row[2] );
                             }
-                            catch(const std::exception& e)
+                            catch (const std::exception& e)
                             {
                                 cerr << "Order Price: " << e.what();
                                 logMessage ( "Order Price" + row[2] + " not an integer", logFile );
@@ -161,27 +190,42 @@ int main() {
                             {
                                 size = stoi ( row[3] );
                             }
-                            catch(const std::exception& e)
+                            catch (const std::exception& e)
                             {
                                 cerr << "Order Size: " << e.what();
                                 logMessage ( "Order size" + row[3] + " not an integer", logFile );
                                 break;
                             }
+
                             orderCounter += 1;
-                            int price = stoi ( row[2] );
-                            int size = stoi ( row[3] );
+                            // check if an order already exists with that ID
+                            if ( sellOrderMap.find(orderCounter) != sellOrderMap.end() ) 
+                            {
+                                cerr << "Counter Running Wrong: Duplicate ID\n";
+                                exit(0);
+                            }
+
+                            // uncomment this line of code when you have tested the whole setup and if the counter works fine
+                            // ->>>>>>>>>>>>>> while ( sellOrderMap.find(orderCounter) != sellOrderMap.end() ) ++orderCounter;
+
+                            // instantiate the pointer to an object instance
+                            Order* order = new Order( orderCounter, price, size, orderType );
+
+                            // add order to the order Map
+                            sellOrderMap.insert( { orderCounter, order } );
+
+                            // add the order to the book (handles limit object and book update)
+                            book.addSellOrderToBook ( order );
+
+
+                            
+
 
                         default:
                             logMessage ( "Invalid Order Action: Only Add/Cancel orders permitted.", logFile );
                             break;
 
                     }
-                    Order sellOrder;
-                    sellOrder.id = orderCounter;
-                    // book.sellSide[price]
-
-
-                    // logMessage("Sell order placed for" + to_string(size) + " assets at $" + to_string(price), logFile);
 
 
 
@@ -258,10 +302,10 @@ int main() {
                             if ( FLAG ) break;
 
                             long int idx = buyOrderMap.at(orderId)->limitPrice;
-                            Limit limit = book.buySide[idx];
+                            Limit* limit = book.buySide[idx];
 
                             FLAG = 1;
-                            switch ( limit.removeOrderFromQueue(order) ) 
+                            switch ( limit->removeOrderFromQueue(order) ) 
                             {
                                 case LIMIT_ERR:
                                     logMessage ( "Could not remove order from Queue. Some error occured", logFile );
@@ -285,10 +329,14 @@ int main() {
                             int size = stoi(row[3]);
 
                         default:
-                            throw std::invalid_argument("Invalid Order Action: . Only Add or Cancel Orders permitted.");
+                            logMessage ( "Invalid Order Action: Only Add or Cancel Orders permitted.", logFile );
                             break;
 
                     }
+                
+                default:
+                    logMessage ( "Invalid Order Type: Only Sell/Buy Orders permitted.", logFile );
+                    break;
 
             }
             

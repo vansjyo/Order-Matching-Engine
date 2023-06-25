@@ -1,3 +1,4 @@
 Sell/Buy Add/Cancel LimitPrice OrderSize 
 Buy Add 7898 100
 Sell Cancel 1237 12
+printorderbook 35
