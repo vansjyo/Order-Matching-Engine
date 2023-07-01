@@ -1,27 +1,12 @@
-#include "globalVar.h"
-#include <bits/stdc++.h>
-#include <chrono>
+#include "../headers/globalVar.h"
+#include "../headers/helper.h"
+// #include <chrono>
 
 using namespace std;
 
-const char separator    = ' ';
-const int nameWidth     = 11;
-
-// input:   list/vector of things to print eg. {2, "hi", 8}
-// returns: prints all elements of list seperated by tab 
-template <class T>
-void printTab (initializer_list<T> list) 
-{
-    for( auto elem : list )
-    {
-        cout << left << setw(nameWidth) << setfill(separator) << elem;
-    }
-    cout << endl;
-}
-
 // input:   string line, delmiter set as ' ', array<string>[4] row 
 // returns: vector<string row> (in place)
-void getArrayFromLine (string line, string (&row)[4]) 
+void getArrayFromLine ( string line, string (&row)[4] ) 
 {
     // convert line into a string stream object separated by delimiter
     string word;
@@ -36,7 +21,7 @@ void getArrayFromLine (string line, string (&row)[4])
 
 // input:   none
 // returns: printed current Time steamp till microseconds
-void printTime () 
+void printTime (ofstream &logFile) 
 {
     using namespace std::chrono;
     auto timepoint = high_resolution_clock::now();
@@ -49,29 +34,33 @@ void printTime ()
                     "%F %T.", std::localtime(&coarse)),
                     8, "%03lu:%03lu", fine.time_since_epoch().count() % 1000, finest.time_since_epoch().count()%1000);
 
-    cout << buffer;
+    cout << buffer << " -> ";
+    logFile << buffer << " -> ";
 }
+
 
 // input:   string messgae to be printed in the log fle, log file oftsream handler
 // returns: prints Log message in the log file
-void logMessage (string msg, ofstream &logFile)
+void logMessage ( string msg, ofstream &logFile )
 {
-    printTime();
-    logFile << " " << msg << "\n";
+    printTime(logFile);
+    cout << msg << endl;
+    logFile <<  msg << "\n";
 }
+
 
 // input:   string to convert to int, string message to be printed in the log fle if conversion fails, log file oftsream handler
 // returns: prints Log message in the log file
-bool checkStringToInt(string str, string errMsg)
-{
-    try
-    {
-        long int orderId = stoi(str);
-        return true;
-    }
-    catch(const std::exception& e)
-    {
-        std::cerr << e.what() <<  "Could not convert to Int:" + errMsg;
-        return false;
-    }
-}
+// bool checkStringToInt ( string str, string errMsg )
+// {
+//     try
+//     {
+//         long int orderId = stoi(str);
+//         return true;
+//     }
+//     catch(const std::exception& e)
+//     {
+//         std::cerr << e.what() <<  "Could not convert to Int:" + errMsg;
+//         return false;
+//     }
+// }
