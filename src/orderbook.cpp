@@ -14,37 +14,36 @@ void OrderBook :: printBook ( int depth )
         return;
     }
 
-    int k = 0;
-    Limit* headBuy = bestBuy;
-    Limit* headSell = bestSell;
-    while ( k < depth  &&  k < numberOfBuyOrders ) 
-    {
+    depth = 100;
 
+    printTab ( { " ", " ", " ", "________ Sell ________ \n" } );
+    printTab( { " ", " ", " ", "Price", "#Orders", "Volume" } );
+    for ( int k = depth; k > 0 && bestSell != nullptr; k-- ) 
+    {
+        
+        Limit* ptr = sellSide[bestSell->price + k];
         // printing the buy side of the Order Book
-        printTab ( { " ", " ", " ", "________ Buy ________ \n" });
-        printTab( { " ", " ", " ", "Price", "#Orders", "Volume" } );
-        if( buySide[headBuy->price]!=nullptr && !buySide[headBuy->price]->isEmpty() )
+        if ( ptr!=nullptr && !ptr->isEmpty() )
         {
             printTab ( { " ", " ", " "}, 0 );
-            printTab ( { headBuy->price, headBuy->numberOfOrders, headBuy->volume} );
+            cout << (ptr->price)/100 << ".";
+            printTab ( { (ptr->price)%100, ptr->numberOfOrders, ptr->volume } );
         }
-        k++;
-        --headBuy;
     }
     
-    k = 0;
-    while ( k < depth && k < numberOfSellOrders )
+    
+    cout << "\n_________ Buy _________ \n\n";
+    printTab ( {"Price", "#Orders", "Volume"} );
+    for ( int k = 0; k < depth && bestBuy!=nullptr; k++ ) 
     {
 
-        // printing the Sell side of the Order Book
-        cout << "\n_________ Sell _________ \n\n";
-        printTab ( {"Price", "#Orders", "Volume"} );
-        if( !sellSide[headSell->price]->isEmpty() )
+        Limit* ptr = buySide[bestBuy->price - k];
+        // printing the Sell side of the Order Boo
+        if( ptr!=nullptr && !ptr->isEmpty() )
         {
-            printTab ( {headSell->price, headSell->numberOfOrders, headSell->volume} );
+            cout << (ptr->price)/100 << ".";
+            printTab ( { (ptr->price)%100, ptr->numberOfOrders, ptr->volume } );
         }
-        k++;
-        ++headSell;
     }
 
 }
@@ -171,11 +170,13 @@ limit_err_codes OrderBook :: addSellOrderToBook ( Order* order )
     {
         case LIMIT_SUCCESS:
             // update the order book for best sell limit if sell offer is lower than best and a new limit was added (only one order in the limit)
-            if ( limit->numberOfOrders == 1  && bestSell != nullptr && limit->price < bestSell->price )
+            numberOfSellOrders += 1;
+            if ( limit->numberOfOrders == 1  && ( bestSell==nullptr || ( bestSell != nullptr && limit->price < bestSell->price ) ) )
             {
+                
                 bestSell = limit;
 
-                if ( bestSell->price <= bestBuy->price ) 
+                if ( (bestSell != nullptr) && (bestBuy!=nullptr) && (bestSell->price <= bestBuy->price) ) 
                 {
                     switch ( runMatchingEngine() )
                     {
@@ -196,7 +197,6 @@ limit_err_codes OrderBook :: addSellOrderToBook ( Order* order )
         break;
     }
 
-    numberOfSellOrders += 1;
     // sets the bestSell when the first order is added to the exchange
     if ( numberOfSellOrders == 1 ) bestSell = limit;
     return LIMIT_SUCCESS;
@@ -216,12 +216,14 @@ limit_err_codes OrderBook :: addBuyOrderToBook ( Order* order )
     switch ( limit->addOrderToQueue ( order ) )
     {
         case LIMIT_SUCCESS:
-            // update the order book for best sell limit if sell offer is lower than best and a new limit was added (only one order in the limit)
-            if ( limit->numberOfOrders == 1  &&  bestBuy != nullptr && limit->price > bestBuy->price )
+            // update the order book for best sell limit if either there is no previously set best buy (so current order is best)
+            // or if sell offer is lower than best and a new limit was added (only one order in the limit)
+            numberOfBuyOrders += 1;
+            if ( limit->numberOfOrders == 1  && ( bestBuy==nullptr || ( bestBuy != nullptr && limit->price > bestBuy->price ) ) )
             {
                 bestBuy = limit;
 
-                if ( bestSell->price <= bestBuy->price ) 
+                if ( (bestSell != nullptr) && (bestBuy!=nullptr) && (bestSell->price <= bestBuy->price) )
                 {
                     switch ( runMatchingEngine() )
                     {
@@ -242,7 +244,6 @@ limit_err_codes OrderBook :: addBuyOrderToBook ( Order* order )
         break;
     }
 
-    numberOfBuyOrders += 1;
     // sets the bestBuy when the first order is added to the exchange
     if ( numberOfBuyOrders == 1 ) bestBuy = limit;
     return LIMIT_SUCCESS;
@@ -254,17 +255,25 @@ limit_err_codes OrderBook :: addBuyOrderToBook ( Order* order )
 // return: status_codes based on matching status
 matching_engine_status_codes OrderBook :: runMatchingEngine ()
 {
+    cout << "running the matching engine...\n";
     // while there exists spread, keep matching orders
-    while ( bestBuy->price >= bestSell->price )
+    while ( bestBuy != nullptr  &&
+            bestSell != nullptr  &&  
+            bestBuy->price >= bestSell->price )
     {
+        cout << "running...\n";
         Order* buyOrder = bestBuy->head;
         Order* sellOrder = bestSell->head;
 
-        int fill = min( buyOrder->size, sellOrder->size );
+        int fill = min( (buyOrder->size - buyOrder->filled), (sellOrder->size - sellOrder->filled) );
+        cout << fill << endl;
 
         // orders matched
-        buyOrder->filled = fill;
-        sellOrder->filled = fill;
+        buyOrder->filled += fill;
+        sellOrder->filled += fill;
+
+        bestBuy->volume -= fill;
+        bestSell->volume -= fill;
 
         // if the entire buy order has been filled, update the best Sell
         // if there are more orders in the bestBuy Limit, then simply move the head of bestBuy to current_head->prev and reset the next pointer of new head to nullptr
@@ -274,6 +283,7 @@ matching_engine_status_codes OrderBook :: runMatchingEngine ()
             buyOrder->status = EXECUTED;
             buyOrder->actionDate = std::chrono::system_clock::now();
             bestBuy->numberOfOrders -= 1;
+            numberOfBuyOrders -= 1;
 
             if ( bestBuy->numberOfOrders >= 1 )
             {
@@ -283,9 +293,17 @@ matching_engine_status_codes OrderBook :: runMatchingEngine ()
             }
             else
             {
-                int k = bestBuy->price;
-                while ( buySide[k] == nullptr || buySide[k]->numberOfOrders == 0 ) { k--; }
-                bestBuy = buySide[k];
+                // if there was only one buy order (now 0), then set bestBuy as nullptr
+                if ( numberOfBuyOrders == 0 )
+                {
+                    bestBuy = nullptr;
+                }
+                else 
+                {
+                    int k = bestBuy->price;
+                    while ( buySide[k] == nullptr || buySide[k]->numberOfOrders == 0 ) { k--; }
+                    bestBuy = buySide[k];
+                }
             }
         }
 
@@ -293,6 +311,11 @@ matching_engine_status_codes OrderBook :: runMatchingEngine ()
         if ( sellOrder->size == sellOrder->filled )
         {
             sellOrder->status = EXECUTED;
+            sellOrder->actionDate = std::chrono::system_clock::now();
+            bestSell->numberOfOrders -= 1;
+            numberOfSellOrders -= 1;
+            // cout << bestSell->numberOfOrders << " " << numberOfSellOrders << endl;
+
             if ( bestSell->numberOfOrders > 1 )
             {
                 bestSell->head = bestSell->head->prev;
@@ -300,9 +323,19 @@ matching_engine_status_codes OrderBook :: runMatchingEngine ()
             }
             else
             {
-                int k = bestSell->price;
-                while ( sellSide[k] == nullptr || sellSide[k]->numberOfOrders == 0 ) { k--; }
-                bestSell = sellSide[k];
+                // if there was only one buy order (now 0), then set bestBuy as nullptr
+                if ( numberOfSellOrders == 0 )
+                {
+                    bestSell = nullptr;
+                }
+                else 
+                {
+                    int k = bestSell->price;
+                    // cout << sellSide[k]->numberOfOrders;
+                    while ( sellSide[k] == nullptr || sellSide[k]->numberOfOrders == 0 ) { k++; }
+                    
+                    bestSell = sellSide[k];
+                }
             }
         }
     }

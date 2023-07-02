@@ -1,0 +1,1400 @@
+-> SELL ADD 7891 110
+ -> Sell Order 1 added to the Queue successfully.
+                                 ________ Sell ________ 
+
+                                 Price      #Orders    Volume     
+
+_________ Buy _________ 
+
+Price      #Orders    Volume     
+-> BUY ADD 7986 260
+running the matching engine...
+running...
+110
+Matching engine ran successfully
+ -> Buy Order 2 added to the Queue successfully.
+                                 ________ Sell ________ 
+
+                                 Price      #Orders    Volume     
+
+_________ Buy _________ 
+
+Price      #Orders    Volume     
+79.86         1          150        
+-> SELL ADD 7905 5
+running the matching engine...
+running...
+5
+Matching engine ran successfully
+ -> Sell Order 3 added to the Queue successfully.
+                                 ________ Sell ________ 
+
+                                 Price      #Orders    Volume     
+
+_________ Buy _________ 
+
+Price      #Orders    Volume     
+79.86         1          145        
+-> SELL ADD 7936 465
+running the matching engine...
+running...
+145
+Matching engine ran successfully
+ -> Sell Order 4 added to the Queue successfully.
+                                 ________ Sell ________ 
+
+                                 Price      #Orders    Volume     
+
+_________ Buy _________ 
+
+Price      #Orders    Volume     
+-> BUY ADD 7930 351
+ -> Buy Order 5 added to the Queue successfully.
+                                 ________ Sell ________ 
+
+                                 Price      #Orders    Volume     
+
+_________ Buy _________ 
+
+Price      #Orders    Volume     
+79.30         1          351        
+-> BUY ADD 7808 165
+ -> Buy Order 6 added to the Queue successfully.
+                                 ________ Sell ________ 
+
+                                 Price      #Orders    Volume     
+
+_________ Buy _________ 
+
+Price      #Orders    Volume     
+79.30         1          351        
+-> BUY ADD 7872 491
+ -> Buy Order 7 added to the Queue successfully.
+                                 ________ Sell ________ 
+
+                                 Price      #Orders    Volume     
+
+_________ Buy _________ 
+
+Price      #Orders    Volume     
+79.30         1          351        
+78.72         1          491        
+-> BUY CANCEL 6 165
+ -> Order 6 cancelled successfully.
+ -> Order 6 removed from the Queue successfully.
+                                 ________ Sell ________ 
+
+                                 Price      #Orders    Volume     
+
+_________ Buy _________ 
+
+Price      #Orders    Volume     
+79.30         1          351        
+78.72         1          491        
+-> SELL ADD 7976 219
+ -> Sell Order 8 added to the Queue successfully.
+                                 ________ Sell ________ 
+
+                                 Price      #Orders    Volume     
+                                 79.76         1          219        
+
+_________ Buy _________ 
+
+Price      #Orders    Volume     
+79.30         1          351        
+78.72         1          491        
+-> SELL ADD 7854 84
+running the matching engine...
+running...
+84
+Matching engine ran successfully
+ -> Sell Order 9 added to the Queue successfully.
+                                 ________ Sell ________ 
+
+                                 Price      #Orders    Volume     
+                                 79.76         1          219        
+
+_________ Buy _________ 
+
+Price      #Orders    Volume     
+79.30         1          267        
+78.72         1          491        
+-> BUY ADD 7811 253
+ -> Buy Order 10 added to the Queue successfully.
+                                 ________ Sell ________ 
+
+                                 Price      #Orders    Volume     
+                                 79.76         1          219        
+
+_________ Buy _________ 
+
+Price      #Orders    Volume     
+79.30         1          267        
+78.72         1          491        
+-> SELL ADD 7898 46
+running the matching engine...
+running...
+46
+Matching engine ran successfully
+ -> Sell Order 11 added to the Queue successfully.
+                                 ________ Sell ________ 
+
+                                 Price      #Orders    Volume     
+                                 79.76         1          219        
+
+_________ Buy _________ 
+
+Price      #Orders    Volume     
+79.30         1          221        
+78.72         1          491        
+-> SELL ADD 7876 457
+running the matching engine...
+running...
+221
+Matching engine ran successfully
+ -> Sell Order 12 added to the Queue successfully.
+                                 ________ Sell ________ 
+
+                                 Price      #Orders    Volume     
+                                 79.76         1          219        
+                                 79.36         1          320        
+                                 79.5          0          0          
+                                 78.98         0          0          
+                                 78.91         0          0          
+
+_________ Buy _________ 
+
+Price      #Orders    Volume     
+78.72         1          491        
+78.11         1          253        
+-> SELL ADD 7809 385
+running the matching engine...
+running...
+385
+Matching engine ran successfully
+ -> Sell Order 13 added to the Queue successfully.
+                                 ________ Sell ________ 
+
+                                 Price      #Orders    Volume     
+                                 79.76         1          219        
+                                 79.36         1          320        
+                                 79.5          0          0          
+                                 78.98         0          0          
+                                 78.91         0          0          
+
+_________ Buy _________ 
+
+Price      #Orders    Volume     
+78.72         1          106        
+78.11         1          253        
+-> SELL ADD 7937 315
+ -> Sell Order 14 added to the Queue successfully.
+                                 ________ Sell ________ 
+
+                                 Price      #Orders    Volume     
+                                 79.76         1          219        
+                                 79.37         1          315        
+                                 79.36         1          320        
+                                 79.5          0          0          
+                                 78.98         0          0          
+                                 78.91         0          0          
+
+_________ Buy _________ 
+
+Price      #Orders    Volume     
+78.72         1          106        
+78.11         1          253        
+-> BUY CANCEL 10 253
+ -> Order 10 cancelled successfully.
+ -> Order 10 removed from the Queue successfully.
+                                 ________ Sell ________ 
+
+                                 Price      #Orders    Volume     
+                                 79.76         1          219        
+                                 79.37         1          315        
+                                 79.36         1          320        
+                                 79.5          0          0          
+                                 78.98         0          0          
+                                 78.91         0          0          
+
+_________ Buy _________ 
+
+Price      #Orders    Volume     
+78.72         1          106        
+-> BUY ADD 7860 257
+ -> Buy Order 15 added to the Queue successfully.
+                                 ________ Sell ________ 
+
+                                 Price      #Orders    Volume     
+                                 79.76         1          219        
+                                 79.37         1          315        
+                                 79.36         1          320        
+                                 79.5          0          0          
+                                 78.98         0          0          
+                                 78.91         0          0          
+
+_________ Buy _________ 
+
+Price      #Orders    Volume     
+78.72         1          106        
+78.60         1          257        
+-> BUY ADD 7967 208
+running the matching engine...
+running...
+208
+Matching engine ran successfully
+ -> Buy Order 16 added to the Queue successfully.
+                                 ________ Sell ________ 
+
+                                 Price      #Orders    Volume     
+                                 79.76         1          219        
+                                 79.37         1          315        
+                                 79.36         1          320        
+                                 79.5          0          0          
+                                 78.98         0          0          
+                                 78.91         0          0          
+
+_________ Buy _________ 
+
+Price      #Orders    Volume     
+78.72         1          106        
+78.60         1          257        
+-> SELL ADD 7835 286
+running the matching engine...
+running...
+106
+running...
+180
+Matching engine ran successfully
+ -> Sell Order 17 added to the Queue successfully.
+                                 ________ Sell ________ 
+
+                                 Price      #Orders    Volume     
+                                 79.76         1          219        
+                                 79.37         1          315        
+                                 79.36         1          320        
+                                 79.5          0          0          
+                                 78.98         0          0          
+                                 78.91         0          0          
+
+_________ Buy _________ 
+
+Price      #Orders    Volume     
+78.60         1          77         
+-> SELL ADD 7899 374
+ -> Sell Order 18 added to the Queue successfully.
+                                 ________ Sell ________ 
+
+                                 Price      #Orders    Volume     
+                                 79.76         1          219        
+                                 79.37         1          315        
+                                 79.36         1          320        
+                                 79.5          0          0          
+                                 78.99         1          374        
+                                 78.98         0          0          
+                                 78.91         0          0          
+
+_________ Buy _________ 
+
+Price      #Orders    Volume     
+78.60         1          77         
+-> BUY ADD 7967 107
+running the matching engine...
+running...
+0
+Matching engine ran successfully
+ -> Buy Order 19 added to the Queue successfully.
+                                 ________ Sell ________ 
+
+                                 Price      #Orders    Volume     
+                                 79.76         1          219        
+                                 79.37         1          315        
+                                 79.36         1          320        
+                                 79.5          0          0          
+                                 78.99         1          374        
+                                 78.98         0          0          
+                                 78.91         0          0          
+
+_________ Buy _________ 
+
+Price      #Orders    Volume     
+79.67         0          107        
+79.30         0          0          
+78.72         0          0          
+-> SELL ADD 7854 208
+running the matching engine...
+running...
+0
+Matching engine ran successfully
+ -> Sell Order 20 added to the Queue successfully.
+                                 ________ Sell ________ 
+
+                                 Price      #Orders    Volume     
+                                 79.76         1          219        
+                                 79.37         1          315        
+                                 79.36         1          320        
+                                 79.5          0          0          
+                                 78.99         1          374        
+                                 78.98         0          0          
+                                 78.91         0          0          
+
+_________ Buy _________ 
+
+Price      #Orders    Volume     
+-> BUY ADD 7847 159
+ -> Buy Order 21 added to the Queue successfully.
+                                 ________ Sell ________ 
+
+                                 Price      #Orders    Volume     
+                                 79.76         1          219        
+                                 79.37         1          315        
+                                 79.36         1          320        
+                                 79.5          0          0          
+                                 78.99         1          374        
+                                 78.98         0          0          
+                                 78.91         0          0          
+
+_________ Buy _________ 
+
+Price      #Orders    Volume     
+78.47         1          159        
+-> SELL CANCEL 14 315
+ -> Order 14 cancelled successfully.
+ -> Order 14 removed from the Queue successfully.
+                                 ________ Sell ________ 
+
+                                 Price      #Orders    Volume     
+                                 79.76         1          219        
+                                 79.36         1          320        
+                                 79.5          0          0          
+                                 78.99         1          374        
+                                 78.98         0          0          
+                                 78.91         0          0          
+
+_________ Buy _________ 
+
+Price      #Orders    Volume     
+78.47         1          159        
+-> BUY ADD 7877 75
+running the matching engine...
+running...
+28
+Matching engine ran successfully
+ -> Buy Order 22 added to the Queue successfully.
+                                 ________ Sell ________ 
+
+                                 Price      #Orders    Volume     
+                                 79.76         1          219        
+                                 79.36         1          320        
+                                 79.5          0          0          
+
+_________ Buy _________ 
+
+Price      #Orders    Volume     
+78.77         1          47         
+78.72         0          0          
+78.60         1          77         
+78.47         1          159        
+-> BUY ADD 7990 75
+running the matching engine...
+running...
+75
+running...
+0
+running...
+0
+Matching engine ran successfully
+ -> Buy Order 23 added to the Queue successfully.
+                                 ________ Sell ________ 
+
+                                 Price      #Orders    Volume     
+                                 79.76         1          219        
+                                 79.36         1          320        
+                                 79.5          0          0          
+
+_________ Buy _________ 
+
+Price      #Orders    Volume     
+-> SELL ADD 7912 245
+ -> Sell Order 24 added to the Queue successfully.
+                                 ________ Sell ________ 
+
+                                 Price      #Orders    Volume     
+                                 79.76         1          219        
+                                 79.36         1          320        
+                                 79.12         1          245        
+                                 79.5          0          0          
+
+_________ Buy _________ 
+
+Price      #Orders    Volume     
+-> BUY ADD 7839 315
+ -> Buy Order 25 added to the Queue successfully.
+                                 ________ Sell ________ 
+
+                                 Price      #Orders    Volume     
+                                 79.76         1          219        
+                                 79.36         1          320        
+                                 79.12         1          245        
+                                 79.5          0          0          
+
+_________ Buy _________ 
+
+Price      #Orders    Volume     
+78.39         1          315        
+-> BUY ADD 7960 239
+running the matching engine...
+running...
+239
+Matching engine ran successfully
+ -> Buy Order 26 added to the Queue successfully.
+                                 ________ Sell ________ 
+
+                                 Price      #Orders    Volume     
+                                 79.76         1          219        
+                                 79.36         1          320        
+                                 79.12         1          245        
+                                 79.5          0          0          
+
+_________ Buy _________ 
+
+Price      #Orders    Volume     
+79.60         0          0          
+79.30         0          0          
+78.77         1          47         
+78.72         0          0          
+-> SELL ADD 7979 72
+ -> Sell Order 27 added to the Queue successfully.
+                                 ________ Sell ________ 
+
+                                 Price      #Orders    Volume     
+                                 79.79         1          72         
+                                 79.76         1          219        
+                                 79.36         1          320        
+                                 79.12         1          245        
+                                 79.5          0          0          
+
+_________ Buy _________ 
+
+Price      #Orders    Volume     
+79.60         0          0          
+79.30         0          0          
+78.77         1          47         
+78.72         0          0          
+-> SELL ADD 7976 82
+ -> Sell Order 28 added to the Queue successfully.
+                                 ________ Sell ________ 
+
+                                 Price      #Orders    Volume     
+                                 79.79         1          72         
+                                 79.76         2          301        
+                                 79.36         1          320        
+                                 79.12         1          245        
+                                 79.5          0          0          
+
+_________ Buy _________ 
+
+Price      #Orders    Volume     
+79.60         0          0          
+79.30         0          0          
+78.77         1          47         
+78.72         0          0          
+-> SELL CANCEL 11 46
+ -> Order status cannot be changed.
+                                 ________ Sell ________ 
+
+                                 Price      #Orders    Volume     
+                                 79.79         1          72         
+                                 79.76         2          301        
+                                 79.36         1          320        
+                                 79.12         1          245        
+                                 79.5          0          0          
+
+_________ Buy _________ 
+
+Price      #Orders    Volume     
+79.60         0          0          
+79.30         0          0          
+78.77         1          47         
+78.72         0          0          
+-> SELL ADD 7890 227
+running the matching engine...
+running...
+0
+Matching engine ran successfully
+ -> Sell Order 29 added to the Queue successfully.
+                                 ________ Sell ________ 
+
+                                 Price      #Orders    Volume     
+                                 79.79         1          72         
+                                 79.76         2          301        
+                                 79.36         1          320        
+                                 79.12         1          245        
+                                 79.5          0          0          
+                                 78.99         1          60         
+                                 78.98         0          0          
+                                 78.91         0          0          
+
+_________ Buy _________ 
+
+Price      #Orders    Volume     
+-> BUY ADD 7842 455
+ -> Buy Order 30 added to the Queue successfully.
+                                 ________ Sell ________ 
+
+                                 Price      #Orders    Volume     
+                                 79.79         1          72         
+                                 79.76         2          301        
+                                 79.36         1          320        
+                                 79.12         1          245        
+                                 79.5          0          0          
+                                 78.99         1          60         
+                                 78.98         0          0          
+                                 78.91         0          0          
+
+_________ Buy _________ 
+
+Price      #Orders    Volume     
+78.42         1          455        
+78.39         1          315        
+-> BUY ADD 7900 409
+running the matching engine...
+running...
+227
+running...
+60
+Matching engine ran successfully
+ -> Buy Order 31 added to the Queue successfully.
+                                 ________ Sell ________ 
+
+                                 Price      #Orders    Volume     
+                                 79.79         1          72         
+                                 79.76         2          301        
+                                 79.36         1          320        
+
+_________ Buy _________ 
+
+Price      #Orders    Volume     
+79.0          1          122        
+78.77         1          47         
+78.72         0          0          
+78.60         1          77         
+78.47         1          159        
+78.42         1          455        
+78.39         1          315        
+-> SELL ADD 7926 413
+ -> Sell Order 32 added to the Queue successfully.
+                                 ________ Sell ________ 
+
+                                 Price      #Orders    Volume     
+                                 79.79         1          72         
+                                 79.76         2          301        
+                                 79.36         1          320        
+                                 79.26         1          413        
+
+_________ Buy _________ 
+
+Price      #Orders    Volume     
+79.0          1          122        
+78.77         1          47         
+78.72         0          0          
+78.60         1          77         
+78.47         1          159        
+78.42         1          455        
+78.39         1          315        
+-> BUY ADD 7990 145
+running the matching engine...
+running...
+0
+running...
+0
+running...
+0
+Matching engine ran successfully
+ -> Buy Order 33 added to the Queue successfully.
+                                 ________ Sell ________ 
+
+                                 Price      #Orders    Volume     
+                                 79.79         1          72         
+                                 79.76         2          301        
+                                 79.36         1          320        
+                                 79.26         1          413        
+
+_________ Buy _________ 
+
+Price      #Orders    Volume     
+-> BUY ADD 7882 438
+ -> Buy Order 34 added to the Queue successfully.
+                                 ________ Sell ________ 
+
+                                 Price      #Orders    Volume     
+                                 79.79         1          72         
+                                 79.76         2          301        
+                                 79.36         1          320        
+                                 79.26         1          413        
+
+_________ Buy _________ 
+
+Price      #Orders    Volume     
+78.82         1          438        
+78.77         1          47         
+78.72         0          0          
+78.60         1          77         
+78.47         1          159        
+78.42         1          455        
+78.39         1          315        
+-> BUY ADD 7942 354
+running the matching engine...
+running...
+245
+running...
+109
+Matching engine ran successfully
+ -> Buy Order 35 added to the Queue successfully.
+                                 ________ Sell ________ 
+
+                                 Price      #Orders    Volume     
+                                 79.79         1          72         
+                                 79.76         2          301        
+                                 79.36         1          320        
+
+_________ Buy _________ 
+
+Price      #Orders    Volume     
+79.42         0          0          
+79.30         0          0          
+79.0          1          122        
+78.82         1          438        
+78.77         1          47         
+78.72         0          0          
+78.60         1          77         
+78.47         1          159        
+-> BUY CANCEL 2 260
+ -> Order status cannot be changed.
+                                 ________ Sell ________ 
+
+                                 Price      #Orders    Volume     
+                                 79.79         1          72         
+                                 79.76         2          301        
+                                 79.36         1          320        
+
+_________ Buy _________ 
+
+Price      #Orders    Volume     
+79.42         0          0          
+79.30         0          0          
+79.0          1          122        
+78.82         1          438        
+78.77         1          47         
+78.72         0          0          
+78.60         1          77         
+78.47         1          159        
+-> BUY ADD 7812 245
+ -> Buy Order 36 added to the Queue successfully.
+                                 ________ Sell ________ 
+
+                                 Price      #Orders    Volume     
+                                 79.79         1          72         
+                                 79.76         2          301        
+                                 79.36         1          320        
+
+_________ Buy _________ 
+
+Price      #Orders    Volume     
+79.42         0          0          
+79.30         0          0          
+79.0          1          122        
+78.82         1          438        
+78.77         1          47         
+78.72         0          0          
+78.60         1          77         
+78.47         1          159        
+-> BUY ADD 7982 445
+running the matching engine...
+running...
+304
+running...
+141
+running...
+0
+running...
+0
+Matching engine ran successfully
+ -> Buy Order 37 added to the Queue successfully.
+                                 ________ Sell ________ 
+
+                                 Price      #Orders    Volume     
+                                 79.79         1          72         
+                                 79.76         2          301        
+
+_________ Buy _________ 
+
+Price      #Orders    Volume     
+-> SELL ADD 7997 224
+ -> Sell Order 38 added to the Queue successfully.
+                                 ________ Sell ________ 
+
+                                 Price      #Orders    Volume     
+                                 79.97         1          224        
+                                 79.79         1          72         
+                                 79.76         2          301        
+
+_________ Buy _________ 
+
+Price      #Orders    Volume     
+-> BUY ADD 7887 404
+ -> Buy Order 39 added to the Queue successfully.
+                                 ________ Sell ________ 
+
+                                 Price      #Orders    Volume     
+                                 79.97         1          224        
+                                 79.79         1          72         
+                                 79.76         2          301        
+
+_________ Buy _________ 
+
+Price      #Orders    Volume     
+78.87         1          404        
+78.82         1          438        
+78.77         1          47         
+78.72         0          0          
+78.60         1          77         
+78.47         1          159        
+78.42         1          455        
+78.39         1          315        
+78.12         1          245        
+-> SELL ADD 7830 309
+running the matching engine...
+running...
+309
+Matching engine ran successfully
+ -> Sell Order 40 added to the Queue successfully.
+                                 ________ Sell ________ 
+
+                                 Price      #Orders    Volume     
+                                 79.97         1          224        
+                                 79.79         1          72         
+                                 79.76         2          301        
+
+_________ Buy _________ 
+
+Price      #Orders    Volume     
+78.87         1          95         
+78.82         1          438        
+78.77         1          47         
+78.72         0          0          
+78.60         1          77         
+78.47         1          159        
+78.42         1          455        
+78.39         1          315        
+78.12         1          245        
+-> SELL ADD 7944 209
+ -> Sell Order 41 added to the Queue successfully.
+                                 ________ Sell ________ 
+
+                                 Price      #Orders    Volume     
+                                 79.97         1          224        
+                                 79.79         1          72         
+                                 79.76         2          301        
+                                 79.44         1          209        
+
+_________ Buy _________ 
+
+Price      #Orders    Volume     
+78.87         1          95         
+78.82         1          438        
+78.77         1          47         
+78.72         0          0          
+78.60         1          77         
+78.47         1          159        
+78.42         1          455        
+78.39         1          315        
+78.12         1          245        
+-> BUY ADD 7966 415
+running the matching engine...
+running...
+179
+running...
+209
+Matching engine ran successfully
+ -> Buy Order 42 added to the Queue successfully.
+                                 ________ Sell ________ 
+
+                                 Price      #Orders    Volume     
+                                 79.97         1          224        
+                                 79.79         1          72         
+
+_________ Buy _________ 
+
+Price      #Orders    Volume     
+79.66         1          27         
+79.60         -1         0          
+79.42         0          0          
+79.30         0          0          
+79.0          1          122        
+78.87         1          95         
+78.82         1          438        
+78.77         1          47         
+78.72         0          0          
+-> SELL CANCEL 4 465
+ -> Order status cannot be changed.
+                                 ________ Sell ________ 
+
+                                 Price      #Orders    Volume     
+                                 79.97         1          224        
+                                 79.79         1          72         
+
+_________ Buy _________ 
+
+Price      #Orders    Volume     
+79.66         1          27         
+79.60         -1         0          
+79.42         0          0          
+79.30         0          0          
+79.0          1          122        
+78.87         1          95         
+78.82         1          438        
+78.77         1          47         
+78.72         0          0          
+-> BUY ADD 7842 195
+ -> Buy Order 43 added to the Queue successfully.
+                                 ________ Sell ________ 
+
+                                 Price      #Orders    Volume     
+                                 79.97         1          224        
+                                 79.79         1          72         
+
+_________ Buy _________ 
+
+Price      #Orders    Volume     
+79.66         1          27         
+79.60         -1         0          
+79.42         0          0          
+79.30         0          0          
+79.0          1          122        
+78.87         1          95         
+78.82         1          438        
+78.77         1          47         
+78.72         0          0          
+-> BUY ADD 7853 143
+ -> Buy Order 44 added to the Queue successfully.
+                                 ________ Sell ________ 
+
+                                 Price      #Orders    Volume     
+                                 79.97         1          224        
+                                 79.79         1          72         
+
+_________ Buy _________ 
+
+Price      #Orders    Volume     
+79.66         1          27         
+79.60         -1         0          
+79.42         0          0          
+79.30         0          0          
+79.0          1          122        
+78.87         1          95         
+78.82         1          438        
+78.77         1          47         
+78.72         0          0          
+-> BUY ADD 7855 7
+ -> Buy Order 45 added to the Queue successfully.
+                                 ________ Sell ________ 
+
+                                 Price      #Orders    Volume     
+                                 79.97         1          224        
+                                 79.79         1          72         
+
+_________ Buy _________ 
+
+Price      #Orders    Volume     
+79.66         1          27         
+79.60         -1         0          
+79.42         0          0          
+79.30         0          0          
+79.0          1          122        
+78.87         1          95         
+78.82         1          438        
+78.77         1          47         
+78.72         0          0          
+-> BUY ADD 7963 200
+ -> Buy Order 46 added to the Queue successfully.
+                                 ________ Sell ________ 
+
+                                 Price      #Orders    Volume     
+                                 79.97         1          224        
+                                 79.79         1          72         
+
+_________ Buy _________ 
+
+Price      #Orders    Volume     
+79.66         1          27         
+79.63         1          200        
+79.60         -1         0          
+79.42         0          0          
+79.30         0          0          
+79.0          1          122        
+78.87         1          95         
+78.82         1          438        
+78.77         1          47         
+78.72         0          0          
+-> SELL ADD 7831 129
+running the matching engine...
+running...
+27
+running...
+102
+Matching engine ran successfully
+ -> Sell Order 47 added to the Queue successfully.
+                                 ________ Sell ________ 
+
+                                 Price      #Orders    Volume     
+                                 79.97         1          224        
+                                 79.79         1          72         
+
+_________ Buy _________ 
+
+Price      #Orders    Volume     
+79.63         1          98         
+79.60         -1         0          
+79.42         0          0          
+79.30         0          0          
+79.0          1          122        
+78.87         1          95         
+78.82         1          438        
+78.77         1          47         
+78.72         0          0          
+-> SELL ADD 7926 398
+running the matching engine...
+running...
+0
+Matching engine ran successfully
+ -> Sell Order 48 added to the Queue successfully.
+                                 ________ Sell ________ 
+
+                                 Price      #Orders    Volume     
+                                 79.97         1          224        
+                                 79.79         1          72         
+
+_________ Buy _________ 
+
+Price      #Orders    Volume     
+79.63         1          98         
+79.60         -1         0          
+79.42         0          0          
+79.30         0          0          
+79.0          1          122        
+78.87         1          95         
+78.82         1          438        
+78.77         1          47         
+78.72         0          0          
+-> BUY ADD 7926 300
+ -> Buy Order 49 added to the Queue successfully.
+                                 ________ Sell ________ 
+
+                                 Price      #Orders    Volume     
+                                 79.97         1          224        
+                                 79.79         1          72         
+
+_________ Buy _________ 
+
+Price      #Orders    Volume     
+79.63         1          98         
+79.60         -1         0          
+79.42         0          0          
+79.30         0          0          
+79.26         1          300        
+79.0          1          122        
+78.87         1          95         
+78.82         1          438        
+78.77         1          47         
+78.72         0          0          
+-> BUY CANCEL 16 208
+ -> Order status cannot be changed.
+                                 ________ Sell ________ 
+
+                                 Price      #Orders    Volume     
+                                 79.97         1          224        
+                                 79.79         1          72         
+
+_________ Buy _________ 
+
+Price      #Orders    Volume     
+79.63         1          98         
+79.60         -1         0          
+79.42         0          0          
+79.30         0          0          
+79.26         1          300        
+79.0          1          122        
+78.87         1          95         
+78.82         1          438        
+78.77         1          47         
+78.72         0          0          
+-> SELL ADD 7904 294
+running the matching engine...
+running...
+98
+running...
+0
+running...
+0
+running...
+0
+running...
+0
+running...
+0
+Matching engine ran successfully
+ -> Sell Order 50 added to the Queue successfully.
+                                 ________ Sell ________ 
+
+                                 Price      #Orders    Volume     
+                                 79.97         1          224        
+                                 79.79         1          72         
+                                 79.76         2          301        
+                                 79.44         0          0          
+                                 79.36         0          0          
+                                 79.26         0          398        
+                                 79.12         0          0          
+                                 79.5          0          0          
+
+_________ Buy _________ 
+
+Price      #Orders    Volume     
+-> BUY ADD 7831 430
+ -> Buy Order 51 added to the Queue successfully.
+                                 ________ Sell ________ 
+
+                                 Price      #Orders    Volume     
+                                 79.97         1          224        
+                                 79.79         1          72         
+                                 79.76         2          301        
+                                 79.44         0          0          
+                                 79.36         0          0          
+                                 79.26         0          398        
+                                 79.12         0          0          
+                                 79.5          0          0          
+
+_________ Buy _________ 
+
+Price      #Orders    Volume     
+78.31         1          430        
+78.12         1          245        
+-> BUY ADD 7862 265
+ -> Buy Order 52 added to the Queue successfully.
+                                 ________ Sell ________ 
+
+                                 Price      #Orders    Volume     
+                                 79.97         1          224        
+                                 79.79         1          72         
+                                 79.76         2          301        
+                                 79.44         0          0          
+                                 79.36         0          0          
+                                 79.26         0          398        
+                                 79.12         0          0          
+                                 79.5          0          0          
+
+_________ Buy _________ 
+
+Price      #Orders    Volume     
+78.62         1          265        
+78.60         1          77         
+78.55         1          7          
+78.53         1          143        
+78.47         1          159        
+78.42         2          650        
+78.39         1          315        
+78.31         1          430        
+78.12         1          245        
+-> BUY ADD 7885 186
+ -> Buy Order 53 added to the Queue successfully.
+                                 ________ Sell ________ 
+
+                                 Price      #Orders    Volume     
+                                 79.97         1          224        
+                                 79.79         1          72         
+                                 79.76         2          301        
+                                 79.44         0          0          
+                                 79.36         0          0          
+                                 79.26         0          398        
+                                 79.12         0          0          
+                                 79.5          0          0          
+
+_________ Buy _________ 
+
+Price      #Orders    Volume     
+78.85         1          186        
+78.82         1          438        
+78.77         1          47         
+78.72         0          0          
+78.62         1          265        
+78.60         1          77         
+78.55         1          7          
+78.53         1          143        
+78.47         1          159        
+78.42         2          650        
+78.39         1          315        
+78.31         1          430        
+78.12         1          245        
+-> SELL ADD 7877 40
+running the matching engine...
+running...
+40
+Matching engine ran successfully
+ -> Sell Order 54 added to the Queue successfully.
+                                 ________ Sell ________ 
+
+                                 Price      #Orders    Volume     
+                                 79.97         1          224        
+                                 79.79         1          72         
+                                 79.76         2          301        
+                                 79.44         0          0          
+                                 79.36         0          0          
+                                 79.26         0          398        
+                                 79.12         0          0          
+                                 79.5          0          0          
+
+_________ Buy _________ 
+
+Price      #Orders    Volume     
+78.85         1          146        
+78.82         1          438        
+78.77         1          47         
+78.72         0          0          
+78.62         1          265        
+78.60         1          77         
+78.55         1          7          
+78.53         1          143        
+78.47         1          159        
+78.42         2          650        
+78.39         1          315        
+78.31         1          430        
+78.12         1          245        
+-> SELL ADD 7934 365
+ -> Sell Order 55 added to the Queue successfully.
+                                 ________ Sell ________ 
+
+                                 Price      #Orders    Volume     
+                                 79.97         1          224        
+                                 79.79         1          72         
+                                 79.76         2          301        
+                                 79.44         0          0          
+                                 79.36         0          0          
+                                 79.34         1          365        
+                                 79.26         0          398        
+                                 79.12         0          0          
+                                 79.5          0          0          
+
+_________ Buy _________ 
+
+Price      #Orders    Volume     
+78.85         1          146        
+78.82         1          438        
+78.77         1          47         
+78.72         0          0          
+78.62         1          265        
+78.60         1          77         
+78.55         1          7          
+78.53         1          143        
+78.47         1          159        
+78.42         2          650        
+78.39         1          315        
+78.31         1          430        
+78.12         1          245        
+-> BUY ADD 7987 231
+running the matching engine...
+running...
+196
+running...
+35
+running...
+0
+running...
+0
+running...
+0
+Matching engine ran successfully
+ -> Buy Order 56 added to the Queue successfully.
+                                 ________ Sell ________ 
+
+                                 Price      #Orders    Volume     
+                                 79.97         1          224        
+                                 79.79         1          72         
+                                 79.76         2          301        
+                                 79.44         0          0          
+                                 79.36         0          0          
+
+_________ Buy _________ 
+
+Price      #Orders    Volume     
+-> BUY CANCEL 37 445
+ -> Order status cannot be changed.
+                                 ________ Sell ________ 
+
+                                 Price      #Orders    Volume     
+                                 79.97         1          224        
+                                 79.79         1          72         
+                                 79.76         2          301        
+                                 79.44         0          0          
+                                 79.36         0          0          
+
+_________ Buy _________ 
+
+Price      #Orders    Volume     
+-> BUY ADD 7829 173
+ -> Buy Order 57 added to the Queue successfully.
+                                 ________ Sell ________ 
+
+                                 Price      #Orders    Volume     
+                                 79.97         1          224        
+                                 79.79         1          72         
+                                 79.76         2          301        
+                                 79.44         0          0          
+                                 79.36         0          0          
+
+_________ Buy _________ 
+
+Price      #Orders    Volume     
+78.29         1          173        
+78.12         1          245        
+-> BUY ADD 7802 322
+ -> Buy Order 58 added to the Queue successfully.
+                                 ________ Sell ________ 
+
+                                 Price      #Orders    Volume     
+                                 79.97         1          224        
+                                 79.79         1          72         
+                                 79.76         2          301        
+                                 79.44         0          0          
+                                 79.36         0          0          
+
+_________ Buy _________ 
+
+Price      #Orders    Volume     
+78.29         1          173        
+78.12         1          245        
+78.2          1          322        
+-> BUY ADD 7993 422
+running the matching engine...
+running...
+330
+running...
+92
+Matching engine ran successfully
+ -> Buy Order 59 added to the Queue successfully.
+                                 ________ Sell ________ 
+
+                                 Price      #Orders    Volume     
+                                 79.97         1          224        
+                                 79.79         1          72         
+
+_________ Buy _________ 
+
+Price      #Orders    Volume     
+79.67         -10        107        
+79.66         0          0          
+79.63         0          0          
+79.60         -6         0          
+79.42         0          0          
+79.30         0          0          
+79.26         1          300        
+79.0          1          122        
+78.87         1          95         
+78.85         1          146        
+78.82         1          438        
+78.77         1          47         
+78.72         0          0          
+-> SELL ADD 7803 354
+running the matching engine...
+running...
+0
+running...
+0
+Matching engine ran successfully
+ -> Sell Order 60 added to the Queue successfully.
+                                 ________ Sell ________ 
+
+                                 Price      #Orders    Volume     
+                                 78.99         0          0          
+                                 78.98         0          0          
+                                 78.91         0          0          
+                                 78.90         0          0          
+                                 78.77         0          0          
+                                 78.76         0          0          
+                                 78.54         0          208        
+                                 78.35         0          0          
+                                 78.31         0          0          
+                                 78.30         0          0          
+                                 78.9          0          0          
+
+_________ Buy _________ 
+
+Price      #Orders    Volume     
+-> SELL ADD 7949 348
+ -> Sell Order 61 added to the Queue successfully.
+                                 ________ Sell ________ 
+
+                                 Price      #Orders    Volume     
+                                 78.99         0          0          
+                                 78.98         0          0          
+                                 78.91         0          0          
+                                 78.90         0          0          
+                                 78.77         0          0          
+                                 78.76         0          0          
+                                 78.54         0          208        
+                                 78.35         0          0          
+                                 78.31         0          0          
+                                 78.30         0          0          
+                                 78.9          0          0          
+
+_________ Buy _________ 
+
+Price      #Orders    Volume     
+-> BUY ADD 7800 41
+ -> Buy Order 62 added to the Queue successfully.
+                                 ________ Sell ________ 
+
+                                 Price      #Orders    Volume     
+                                 78.99         0          0          
+                                 78.98         0          0          
+                                 78.91         0          0          
+                                 78.90         0          0          
+                                 78.77         0          0          
+                                 78.76         0          0          
+                                 78.54         0          208        
+                                 78.35         0          0          
+                                 78.31         0          0          
+                                 78.30         0          0          
+                                 78.9          0          0          
+
+_________ Buy _________ 
+
+Price      #Orders    Volume     
+78.0          1          41         
+-> BUY ADD 7948 4
+running the matching engine...
+running...
+4
+running...
+300
+Matching engine ran successfully
+ -> Buy Order 63 added to the Queue successfully.
+                                 ________ Sell ________ 
+
+                                 Price      #Orders    Volume     
+                                 78.99         0          0          
+                                 78.98         0          0          
+                                 78.91         0          0          
+                                 78.90         0          0          
+                                 78.77         0          0          
+                                 78.76         0          0          
+                                 78.54         0          208        
+                                 78.35         0          0          
+                                 78.31         0          0          
+                                 78.30         0          0          
+                                 78.9          0          0          
+
+_________ Buy _________ 
+
+Price      #Orders    Volume     
+-> BUY CANCEL 33 145
+ -> Order 33 cancelled successfully.

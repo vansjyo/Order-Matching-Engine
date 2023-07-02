@@ -34,7 +34,7 @@ void printTime (ofstream &logFile)
                     "%F %T.", std::localtime(&coarse)),
                     8, "%03lu:%03lu", fine.time_since_epoch().count() % 1000, finest.time_since_epoch().count()%1000);
 
-    cout << buffer << " -> ";
+    cout << " -> ";
     logFile << buffer << " -> ";
 }
 

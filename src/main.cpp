@@ -34,11 +34,13 @@ int main() {
         // For Cancel Orders: "SELL/BUY CANCEL ORDER_ID SIZE"
         // For printing orderbook: "printorderbook 30"
         getArrayFromLine(line, row);
-        cout << "Doing for: " << line << endl; // remove after debug
+        cout << "-> " << line << endl; // remove after debug
 
         // check if the order is just to print the orderbook
         if( row[0] == "printorderbook" ) // can change it to row[0][0]=='p' after debugging phase
         {
+            
+            cout << "Hi";
             int depth { 50 };
             try
             {
@@ -56,13 +58,13 @@ int main() {
 
         types orderType = ( getOrderType.find(row[0][0]) == getOrderType.end() ) ? NONE_TYPE : getOrderType.at( row[0][0] );
         actions orderAction = ( getOrderAction.find(row[1][0]) == getOrderAction.end() ) ? NONE_ACTION : getOrderAction.at( row[1][0] );
-
+        
         // check Order Type = BUY / SELL
         switch ( orderType )
         {
             case SELL:
             {
-
+                
                 // check action to be done = ADD / CANCEL
                 switch ( orderAction )
                 {   
@@ -76,6 +78,7 @@ int main() {
                         // look up the order in the sell order map, change status to cancelled, left and right pointers as nullptr
                         // check if that was the only order in the queue of the limit, if yes, need to change best sell if that was the best sell
                         // log message cancel successfull and perhaps remove the order from the Order Map and save it in archive/disc
+
 
                         
                         // check if order ID is valid
@@ -113,7 +116,7 @@ int main() {
                         catch (const std::exception& e)
                         {
                             cerr <<  ": Order ID not found" << e.what();
-                            logMessage ( "Order ID " + to_string(orderId) + "not found in the Exchange.", logFile );
+                            logMessage ( "Order ID " + to_string(orderId) + " not found in the Exchange.", logFile );
                             break;
                         }
 
@@ -235,6 +238,10 @@ int main() {
                                 FLAG = 0;
                                 logMessage ( "Sell Order " + to_string(orderCounter) + " added to the Queue successfully.", logFile );
                                 break;
+
+                            default:
+                                logMessage ( "Something weird happened", logFile );
+                                break;
                         }
                         if ( FLAG ) break; //currently seems like not needed since break anyways, but maybe later would be useful
 
@@ -293,7 +300,7 @@ int main() {
                         catch (const std::exception& e)
                         {
                             cerr << "Order Size: " << e.what();
-                            logMessage ( "Order size" + row[3] + " not an integer", logFile );
+                            logMessage ( "Order size " + row[3] + " not an integer", logFile );
                             break;
                         }
 
@@ -306,7 +313,7 @@ int main() {
                         catch (const std::exception& e)
                         {
                             cerr <<  ": Order ID not found" << e.what();
-                            logMessage ( "Order ID " + to_string(orderId) + "not found in the Exchange.", logFile );
+                            logMessage ( "Order ID " + to_string(orderId) + " not found in the Exchange.", logFile );
                             break;
                         }
 
@@ -451,6 +458,7 @@ int main() {
             break;
 
         }
+        book.printBook(50);
         
     }
 

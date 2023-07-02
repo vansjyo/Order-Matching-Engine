@@ -1,0 +1,3284 @@
+SELL ADD 7891 110
+printorderbook 48
+BUY ADD 7903 18
+printorderbook 38
+SELL ADD 7812 344
+printorderbook 65
+BUY ADD 7930 351
+printorderbook 54
+SELL ADD 7865 378
+printorderbook 26
+BUY ADD 7950 37
+printorderbook 62
+SELL ADD 7895 138
+BUY CANCEL 2 18
+printorderbook 63
+SELL ADD 7900 160
+printorderbook 35
+SELL ADD 7814 193
+printorderbook 64
+SELL ADD 7809 385
+printorderbook 10
+BUY ADD 7925 363
+printorderbook 62
+SELL ADD 7902 423
+printorderbook 59
+SELL ADD 7893 90
+printorderbook 40
+SELL ADD 7899 374
+SELL CANCEL 13 90
+printorderbook 59
+SELL ADD 7825 138
+printorderbook 30
+BUY ADD 7847 159
+printorderbook 46
+BUY ADD 7877 75
+printorderbook 59
+BUY ADD 7829 205
+printorderbook 40
+SELL ADD 7991 101
+printorderbook 44
+BUY ADD 7960 239
+printorderbook 15
+BUY ADD 7827 206
+SELL CANCEL 19 101
+printorderbook 12
+SELL ADD 7826 228
+printorderbook 32
+BUY ADD 7842 455
+printorderbook 60
+BUY ADD 7963 232
+printorderbook 45
+BUY ADD 7939 477
+printorderbook 21
+BUY ADD 7882 438
+printorderbook 51
+BUY ADD 7940 11
+printorderbook 37
+SELL ADD 7897 341
+BUY CANCEL 26 438
+printorderbook 62
+SELL ADD 7997 224
+printorderbook 37
+SELL ADD 7960 107
+printorderbook 12
+BUY ADD 7799 364
+printorderbook 30
+BUY ADD 7966 415
+printorderbook 7
+BUY ADD 7842 195
+printorderbook 66
+SELL ADD 7856 392
+printorderbook 20
+SELL ADD 7996 410
+SELL CANCEL 15 138
+printorderbook 13
+SELL ADD 7850 52
+printorderbook 45
+BUY ADD 7950 317
+printorderbook 42
+SELL ADD 7822 264
+printorderbook 42
+BUY ADD 7831 430
+printorderbook 39
+SELL ADD 7905 294
+printorderbook 31
+SELL ADD 7888 195
+printorderbook 6
+SELL ADD 7934 365
+SELL CANCEL 40 294
+printorderbook 66
+SELL ADD 7931 303
+printorderbook 11
+SELL ADD 7904 8
+printorderbook 45
+BUY ADD 7993 422
+printorderbook 32
+SELL ADD 7940 219
+printorderbook 53
+BUY ADD 7950 3
+printorderbook 7
+BUY ADD 7948 4
+printorderbook 37
+BUY ADD 7842 314
+SELL CANCEL 35 410
+printorderbook 20
+SELL ADD 7861 53
+printorderbook 55
+SELL ADD 7831 149
+printorderbook 34
+BUY ADD 7829 417
+printorderbook 41
+SELL ADD 7996 2
+printorderbook 3
+SELL ADD 7947 269
+printorderbook 9
+SELL ADD 7922 64
+printorderbook 67
+BUY ADD 7851 213
+SELL CANCEL 50 53
+printorderbook 53
+SELL ADD 7932 106
+printorderbook 39
+SELL ADD 7885 344
+printorderbook 59
+BUY ADD 7815 385
+printorderbook 18
+BUY ADD 7949 341
+printorderbook 4
+SELL ADD 7930 186
+printorderbook 17
+SELL ADD 7831 331
+printorderbook 66
+BUY ADD 7803 361
+BUY CANCEL 4 351
+printorderbook 37
+SELL ADD 7994 165
+printorderbook 52
+SELL ADD 7987 128
+printorderbook 10
+SELL ADD 7820 185
+printorderbook 24
+BUY ADD 7951 350
+printorderbook 66
+SELL ADD 7890 121
+printorderbook 30
+SELL ADD 7842 264
+printorderbook 61
+BUY ADD 7876 230
+BUY CANCEL 56 213
+printorderbook 1
+BUY ADD 7836 68
+printorderbook 66
+BUY ADD 7868 255
+printorderbook 59
+SELL ADD 7925 22
+printorderbook 54
+BUY ADD 7843 45
+printorderbook 50
+SELL ADD 7875 117
+printorderbook 33
+BUY ADD 7806 17
+printorderbook 42
+SELL ADD 7906 202
+BUY CANCEL 74 45
+printorderbook 61
+SELL ADD 7927 466
+printorderbook 57
+BUY ADD 7988 79
+printorderbook 25
+SELL ADD 7803 429
+printorderbook 48
+BUY ADD 7837 174
+printorderbook 11
+SELL ADD 7916 14
+printorderbook 54
+SELL ADD 7984 216
+printorderbook 58
+BUY ADD 7903 82
+BUY CANCEL 49 314
+printorderbook 38
+BUY ADD 7909 334
+printorderbook 40
+SELL ADD 7899 17
+printorderbook 37
+SELL ADD 7820 276
+printorderbook 43
+BUY ADD 7896 349
+printorderbook 35
+BUY ADD 7854 141
+printorderbook 38
+SELL ADD 7918 460
+printorderbook 58
+SELL ADD 7979 326
+BUY CANCEL 85 334
+printorderbook 60
+BUY ADD 7824 352
+printorderbook 8
+SELL ADD 7868 379
+printorderbook 24
+BUY ADD 7839 487
+printorderbook 35
+BUY ADD 7831 75
+printorderbook 27
+SELL ADD 7929 31
+printorderbook 63
+BUY ADD 7833 17
+printorderbook 37
+SELL ADD 7916 406
+BUY CANCEL 92 352
+printorderbook 41
+BUY ADD 7837 360
+printorderbook 6
+BUY ADD 7817 209
+printorderbook 48
+BUY ADD 7953 448
+printorderbook 35
+SELL ADD 7937 39
+printorderbook 34
+SELL ADD 7994 341
+printorderbook 26
+BUY ADD 7814 242
+printorderbook 35
+BUY ADD 7828 41
+SELL CANCEL 43 303
+printorderbook 67
+SELL ADD 7838 288
+printorderbook 41
+SELL ADD 7919 75
+printorderbook 70
+SELL ADD 7963 188
+printorderbook 34
+BUY ADD 7959 179
+printorderbook 24
+SELL ADD 7932 158
+printorderbook 43
+BUY ADD 7902 133
+printorderbook 59
+BUY ADD 7891 79
+SELL CANCEL 75 117
+printorderbook 56
+SELL ADD 7863 360
+printorderbook 17
+SELL ADD 7814 284
+printorderbook 30
+SELL ADD 7871 295
+printorderbook 33
+BUY ADD 7809 298
+printorderbook 61
+SELL ADD 7966 330
+printorderbook 2
+SELL ADD 7904 360
+printorderbook 59
+BUY ADD 7928 268
+BUY CANCEL 39 430
+printorderbook 32
+SELL ADD 7822 418
+printorderbook 24
+BUY ADD 7985 122
+printorderbook 42
+SELL ADD 7838 418
+printorderbook 44
+BUY ADD 7973 59
+printorderbook 48
+SELL ADD 7805 428
+printorderbook 47
+SELL ADD 7855 89
+printorderbook 63
+BUY ADD 7937 285
+SELL CANCEL 55 64
+printorderbook 15
+SELL ADD 7848 239
+printorderbook 67
+SELL ADD 7955 480
+printorderbook 41
+SELL ADD 7899 253
+printorderbook 9
+BUY ADD 7876 416
+printorderbook 10
+BUY ADD 7969 54
+printorderbook 26
+BUY ADD 7915 79
+printorderbook 13
+BUY ADD 7976 172
+SELL CANCEL 93 379
+printorderbook 56
+SELL ADD 7833 38
+printorderbook 53
+SELL ADD 7954 218
+printorderbook 65
+SELL ADD 7958 108
+printorderbook 27
+BUY ADD 7922 179
+printorderbook 15
+BUY ADD 7803 58
+printorderbook 46
+SELL ADD 7865 457
+printorderbook 28
+BUY ADD 7825 471
+SELL CANCEL 50 53
+printorderbook 40
+BUY ADD 7962 218
+printorderbook 25
+BUY ADD 7948 388
+printorderbook 43
+SELL ADD 7824 68
+printorderbook 10
+BUY ADD 7891 118
+printorderbook 48
+BUY ADD 7823 472
+printorderbook 5
+SELL ADD 7844 300
+printorderbook 5
+BUY ADD 7805 487
+BUY CANCEL 99 360
+printorderbook 17
+BUY ADD 7845 224
+printorderbook 65
+BUY ADD 7971 305
+printorderbook 44
+BUY ADD 7804 105
+printorderbook 40
+SELL ADD 7827 272
+printorderbook 62
+SELL ADD 7859 457
+printorderbook 68
+BUY ADD 7889 347
+printorderbook 33
+SELL ADD 7892 259
+SELL CANCEL 139 457
+printorderbook 10
+BUY ADD 7881 17
+printorderbook 14
+SELL ADD 7881 361
+printorderbook 45
+SELL ADD 7868 247
+printorderbook 23
+SELL ADD 7876 29
+printorderbook 54
+BUY ADD 7999 176
+printorderbook 15
+BUY ADD 7839 257
+printorderbook 43
+BUY ADD 7828 262
+BUY CANCEL 92 352
+printorderbook 48
+BUY ADD 7865 372
+printorderbook 29
+BUY ADD 7922 307
+printorderbook 4
+SELL ADD 7833 212
+printorderbook 51
+SELL ADD 7816 210
+printorderbook 23
+BUY ADD 7905 31
+printorderbook 9
+BUY ADD 7824 31
+printorderbook 64
+BUY ADD 7909 423
+BUY CANCEL 112 79
+printorderbook 68
+SELL ADD 7856 299
+printorderbook 5
+BUY ADD 7855 216
+printorderbook 15
+BUY ADD 7934 342
+printorderbook 13
+BUY ADD 7800 90
+printorderbook 47
+BUY ADD 7892 48
+printorderbook 32
+BUY ADD 7975 103
+printorderbook 2
+SELL ADD 7911 124
+BUY CANCEL 6 37
+printorderbook 62
+BUY ADD 7896 468
+printorderbook 39
+BUY ADD 7833 191
+printorderbook 68
+SELL ADD 7977 126
+printorderbook 59
+BUY ADD 7904 47
+printorderbook 55
+SELL ADD 7950 323
+printorderbook 12
+SELL ADD 7831 205
+printorderbook 13
+BUY ADD 7866 178
+BUY CANCEL 59 385
+printorderbook 45
+SELL ADD 7815 246
+printorderbook 18
+BUY ADD 7799 51
+printorderbook 67
+SELL ADD 7822 481
+printorderbook 16
+SELL ADD 7848 275
+printorderbook 60
+BUY ADD 7979 380
+printorderbook 70
+SELL ADD 7948 383
+printorderbook 45
+SELL ADD 7972 466
+BUY CANCEL 56 213
+printorderbook 68
+BUY ADD 7837 383
+printorderbook 3
+SELL ADD 7838 299
+printorderbook 39
+BUY ADD 7941 442
+printorderbook 70
+SELL ADD 7949 345
+printorderbook 13
+SELL ADD 7981 200
+printorderbook 63
+BUY ADD 7852 119
+printorderbook 24
+SELL ADD 7932 410
+SELL CANCEL 107 75
+printorderbook 52
+BUY ADD 7880 351
+printorderbook 47
+SELL ADD 7859 477
+printorderbook 63
+BUY ADD 7881 398
+printorderbook 43
+SELL ADD 7814 192
+printorderbook 28
+BUY ADD 7939 7
+printorderbook 28
+BUY ADD 7853 82
+printorderbook 57
+SELL ADD 7929 37
+SELL CANCEL 78 466
+printorderbook 35
+SELL ADD 7870 446
+printorderbook 31
+BUY ADD 7914 72
+printorderbook 35
+SELL ADD 7834 188
+printorderbook 12
+SELL ADD 7957 126
+printorderbook 39
+BUY ADD 7869 207
+printorderbook 64
+BUY ADD 7879 403
+printorderbook 4
+SELL ADD 7993 104
+SELL CANCEL 175 124
+printorderbook 22
+BUY ADD 7866 42
+printorderbook 48
+SELL ADD 7832 100
+printorderbook 61
+SELL ADD 7848 259
+printorderbook 61
+BUY ADD 7996 412
+printorderbook 48
+BUY ADD 7878 211
+printorderbook 34
+BUY ADD 7858 238
+printorderbook 31
+SELL ADD 7931 282
+BUY CANCEL 145 472
+printorderbook 46
+SELL ADD 7800 31
+printorderbook 16
+SELL ADD 7947 237
+printorderbook 65
+SELL ADD 7936 237
+printorderbook 36
+BUY ADD 7994 75
+printorderbook 28
+BUY ADD 7890 319
+printorderbook 52
+SELL ADD 7835 394
+printorderbook 6
+BUY ADD 7988 473
+BUY CANCEL 85 334
+printorderbook 58
+SELL ADD 7971 477
+printorderbook 61
+BUY ADD 7882 202
+printorderbook 26
+SELL ADD 7964 483
+printorderbook 30
+BUY ADD 7882 302
+printorderbook 69
+SELL ADD 7825 339
+printorderbook 17
+BUY ADD 7828 300
+printorderbook 6
+SELL ADD 7946 479
+BUY CANCEL 171 342
+printorderbook 16
+BUY ADD 7843 136
+printorderbook 59
+BUY ADD 7891 363
+printorderbook 29
+SELL ADD 7886 122
+printorderbook 45
+BUY ADD 7815 25
+printorderbook 33
+SELL ADD 7970 140
+printorderbook 50
+BUY ADD 7835 266
+printorderbook 51
+SELL ADD 7847 411
+SELL CANCEL 207 126
+printorderbook 4
+SELL ADD 7870 83
+printorderbook 22
+SELL ADD 7980 296
+printorderbook 58
+SELL ADD 7915 78
+printorderbook 22
+SELL ADD 7806 34
+printorderbook 54
+SELL ADD 7992 349
+printorderbook 12
+BUY ADD 7937 230
+printorderbook 12
+SELL ADD 7960 282
+BUY CANCEL 141 218
+printorderbook 51
+BUY ADD 7894 293
+printorderbook 51
+SELL ADD 7806 379
+printorderbook 29
+SELL ADD 7806 87
+printorderbook 66
+BUY ADD 7866 418
+printorderbook 31
+SELL ADD 7928 105
+printorderbook 49
+SELL ADD 7824 407
+printorderbook 38
+BUY ADD 7909 354
+BUY CANCEL 182 178
+printorderbook 50
+SELL ADD 7836 153
+printorderbook 49
+SELL ADD 7835 118
+printorderbook 37
+SELL ADD 7934 299
+printorderbook 58
+SELL ADD 7827 428
+printorderbook 3
+SELL ADD 7819 391
+printorderbook 56
+SELL ADD 7924 157
+printorderbook 23
+BUY ADD 7946 66
+SELL CANCEL 83 216
+printorderbook 8
+BUY ADD 7922 439
+printorderbook 27
+BUY ADD 7929 32
+printorderbook 42
+SELL ADD 7849 80
+printorderbook 50
+SELL ADD 7836 120
+printorderbook 14
+SELL ADD 7862 490
+printorderbook 47
+BUY ADD 7956 326
+printorderbook 13
+SELL ADD 7804 242
+SELL CANCEL 257 391
+printorderbook 62
+BUY ADD 7837 114
+printorderbook 57
+BUY ADD 7836 447
+printorderbook 20
+SELL ADD 7938 23
+printorderbook 18
+BUY ADD 7869 145
+printorderbook 23
+BUY ADD 7986 398
+printorderbook 22
+SELL ADD 7811 98
+printorderbook 37
+BUY ADD 7921 491
+BUY CANCEL 176 468
+printorderbook 14
+SELL ADD 7985 199
+printorderbook 15
+BUY ADD 7964 286
+printorderbook 7
+SELL ADD 7948 330
+printorderbook 36
+SELL ADD 7853 228
+printorderbook 67
+SELL ADD 7902 299
+printorderbook 52
+SELL ADD 7992 51
+printorderbook 8
+BUY ADD 7875 71
+SELL CANCEL 28 341
+printorderbook 9
+BUY ADD 7915 294
+printorderbook 70
+SELL ADD 7874 120
+printorderbook 69
+SELL ADD 7927 328
+printorderbook 25
+BUY ADD 7833 242
+printorderbook 8
+SELL ADD 7823 68
+printorderbook 30
+SELL ADD 7913 94
+printorderbook 12
+BUY ADD 7818 172
+SELL CANCEL 263 120
+printorderbook 65
+SELL ADD 7959 294
+printorderbook 57
+BUY ADD 7931 192
+printorderbook 14
+BUY ADD 7939 133
+printorderbook 9
+SELL ADD 7808 397
+printorderbook 20
+SELL ADD 7901 150
+printorderbook 9
+SELL ADD 7963 344
+printorderbook 17
+SELL ADD 7939 42
+SELL CANCEL 38 264
+printorderbook 17
+BUY ADD 7873 101
+printorderbook 49
+BUY ADD 7802 119
+printorderbook 14
+BUY ADD 7810 469
+printorderbook 62
+SELL ADD 7834 82
+printorderbook 69
+BUY ADD 7987 389
+printorderbook 32
+SELL ADD 7867 184
+printorderbook 51
+BUY ADD 7972 211
+SELL CANCEL 198 477
+printorderbook 44
+SELL ADD 7953 133
+printorderbook 7
+BUY ADD 7860 72
+printorderbook 51
+BUY ADD 7812 346
+printorderbook 70
+BUY ADD 7804 234
+printorderbook 30
+SELL ADD 7966 94
+printorderbook 57
+SELL ADD 7878 164
+printorderbook 64
+BUY ADD 7829 471
+BUY CANCEL 155 17
+printorderbook 35
+SELL ADD 7980 25
+printorderbook 63
+BUY ADD 7860 184
+printorderbook 67
+BUY ADD 7916 259
+printorderbook 27
+BUY ADD 7808 51
+printorderbook 41
+BUY ADD 7962 317
+printorderbook 13
+BUY ADD 7933 370
+printorderbook 65
+SELL ADD 7872 89
+BUY CANCEL 84 82
+printorderbook 40
+SELL ADD 7939 407
+printorderbook 1
+SELL ADD 7799 486
+printorderbook 42
+SELL ADD 7960 115
+printorderbook 19
+SELL ADD 7928 294
+printorderbook 31
+SELL ADD 7990 177
+printorderbook 10
+SELL ADD 7826 342
+printorderbook 51
+SELL ADD 7998 99
+SELL CANCEL 51 149
+printorderbook 5
+BUY ADD 7869 180
+printorderbook 11
+BUY ADD 7972 477
+printorderbook 60
+BUY ADD 7989 451
+printorderbook 26
+SELL ADD 7864 292
+printorderbook 65
+BUY ADD 7982 427
+printorderbook 10
+SELL ADD 7925 433
+printorderbook 43
+BUY ADD 7872 275
+SELL CANCEL 98 406
+printorderbook 41
+SELL ADD 7953 275
+printorderbook 3
+BUY ADD 7896 392
+printorderbook 3
+BUY ADD 7945 167
+printorderbook 18
+BUY ADD 7819 98
+printorderbook 17
+SELL ADD 7812 491
+printorderbook 37
+SELL ADD 7854 226
+printorderbook 35
+BUY ADD 7888 136
+SELL CANCEL 51 149
+printorderbook 61
+BUY ADD 7983 18
+printorderbook 13
+SELL ADD 7908 2
+printorderbook 3
+BUY ADD 7829 306
+printorderbook 27
+SELL ADD 7945 72
+printorderbook 8
+BUY ADD 7825 65
+printorderbook 63
+BUY ADD 7807 117
+printorderbook 13
+SELL ADD 7896 342
+BUY CANCEL 49 314
+printorderbook 64
+SELL ADD 7849 110
+printorderbook 46
+SELL ADD 7817 5
+printorderbook 60
+BUY ADD 7851 474
+printorderbook 20
+SELL ADD 7979 306
+printorderbook 58
+SELL ADD 7977 321
+printorderbook 61
+SELL ADD 7971 260
+printorderbook 35
+SELL ADD 7832 277
+BUY CANCEL 341 65
+printorderbook 49
+BUY ADD 7853 211
+printorderbook 17
+SELL ADD 7819 216
+printorderbook 33
+BUY ADD 7951 212
+printorderbook 40
+SELL ADD 7920 238
+printorderbook 17
+BUY ADD 7995 213
+printorderbook 47
+SELL ADD 7955 98
+printorderbook 11
+BUY ADD 7897 383
+BUY CANCEL 11 363
+printorderbook 46
+SELL ADD 7955 223
+printorderbook 12
+BUY ADD 7966 302
+printorderbook 15
+SELL ADD 7939 205
+printorderbook 63
+SELL ADD 7984 280
+printorderbook 35
+BUY ADD 7918 80
+printorderbook 51
+SELL ADD 7801 30
+printorderbook 68
+SELL ADD 7871 411
+SELL CANCEL 115 295
+printorderbook 24
+BUY ADD 7873 77
+printorderbook 4
+BUY ADD 7913 209
+printorderbook 45
+BUY ADD 7848 416
+printorderbook 46
+BUY ADD 7866 483
+printorderbook 42
+SELL ADD 7910 146
+printorderbook 35
+SELL ADD 7800 377
+printorderbook 31
+SELL ADD 7890 220
+SELL CANCEL 250 105
+printorderbook 39
+SELL ADD 7898 148
+printorderbook 61
+SELL ADD 7972 56
+printorderbook 2
+BUY ADD 7818 455
+printorderbook 53
+BUY ADD 7998 174
+printorderbook 17
+BUY ADD 7817 100
+printorderbook 65
+SELL ADD 7872 378
+printorderbook 48
+SELL ADD 7910 361
+BUY CANCEL 265 326
+printorderbook 55
+BUY ADD 7957 231
+printorderbook 36
+BUY ADD 7802 218
+printorderbook 66
+BUY ADD 7898 41
+printorderbook 66
+BUY ADD 7901 40
+printorderbook 26
+SELL ADD 7834 49
+printorderbook 67
+SELL ADD 7921 99
+printorderbook 32
+SELL ADD 7951 50
+BUY CANCEL 267 114
+printorderbook 16
+SELL ADD 7961 124
+printorderbook 40
+SELL ADD 7888 27
+printorderbook 64
+BUY ADD 7994 177
+printorderbook 60
+BUY ADD 7971 434
+printorderbook 1
+SELL ADD 7924 372
+printorderbook 19
+SELL ADD 7828 246
+printorderbook 21
+BUY ADD 7913 360
+BUY CANCEL 304 346
+printorderbook 51
+SELL ADD 7962 263
+printorderbook 42
+BUY ADD 7853 371
+printorderbook 30
+BUY ADD 7822 343
+printorderbook 21
+SELL ADD 7931 10
+printorderbook 34
+SELL ADD 7880 242
+printorderbook 24
+SELL ADD 7879 305
+printorderbook 31
+SELL ADD 7819 239
+SELL CANCEL 227 483
+printorderbook 7
+SELL ADD 7926 98
+printorderbook 5
+BUY ADD 7976 408
+printorderbook 56
+SELL ADD 7842 156
+printorderbook 43
+BUY ADD 7976 381
+printorderbook 16
+SELL ADD 7820 220
+printorderbook 55
+BUY ADD 7808 408
+printorderbook 40
+SELL ADD 7853 290
+BUY CANCEL 260 439
+printorderbook 64
+BUY ADD 7901 478
+printorderbook 55
+BUY ADD 7910 455
+printorderbook 29
+SELL ADD 7946 396
+printorderbook 44
+BUY ADD 7936 375
+printorderbook 42
+BUY ADD 7841 451
+printorderbook 22
+SELL ADD 7892 71
+printorderbook 58
+SELL ADD 7973 395
+SELL CANCEL 98 406
+printorderbook 40
+BUY ADD 7995 408
+printorderbook 61
+BUY ADD 7925 415
+printorderbook 40
+BUY ADD 7904 315
+printorderbook 5
+SELL ADD 7932 180
+printorderbook 36
+BUY ADD 7989 217
+printorderbook 4
+BUY ADD 7826 394
+printorderbook 32
+SELL ADD 7890 402
+SELL CANCEL 69 264
+printorderbook 70
+SELL ADD 7867 105
+printorderbook 57
+SELL ADD 7856 182
+printorderbook 36
+SELL ADD 7966 268
+printorderbook 28
+SELL ADD 7821 135
+printorderbook 39
+BUY ADD 7979 120
+printorderbook 57
+BUY ADD 7885 370
+printorderbook 16
+BUY ADD 7973 341
+BUY CANCEL 192 442
+printorderbook 13
+BUY ADD 7887 233
+printorderbook 30
+SELL ADD 7982 68
+printorderbook 11
+BUY ADD 7876 462
+printorderbook 51
+BUY ADD 7972 97
+printorderbook 61
+SELL ADD 7983 274
+printorderbook 20
+BUY ADD 7857 111
+printorderbook 65
+SELL ADD 7906 300
+BUY CANCEL 201 7
+printorderbook 40
+BUY ADD 7888 284
+printorderbook 21
+SELL ADD 7906 420
+printorderbook 39
+SELL ADD 7976 414
+printorderbook 42
+BUY ADD 7900 140
+printorderbook 54
+SELL ADD 7870 349
+printorderbook 70
+BUY ADD 7826 194
+printorderbook 16
+BUY ADD 7827 410
+BUY CANCEL 380 218
+printorderbook 64
+SELL ADD 7800 89
+printorderbook 4
+BUY ADD 7939 496
+printorderbook 22
+BUY ADD 7816 234
+printorderbook 68
+SELL ADD 7934 201
+printorderbook 66
+SELL ADD 7830 390
+printorderbook 38
+SELL ADD 7812 251
+printorderbook 4
+SELL ADD 7835 307
+BUY CANCEL 235 25
+printorderbook 47
+BUY ADD 7940 442
+printorderbook 63
+SELL ADD 7982 274
+printorderbook 70
+BUY ADD 7859 426
+printorderbook 16
+BUY ADD 7989 78
+printorderbook 46
+SELL ADD 7944 135
+printorderbook 34
+BUY ADD 7989 294
+printorderbook 42
+SELL ADD 7936 375
+SELL CANCEL 391 246
+printorderbook 52
+SELL ADD 7869 12
+printorderbook 35
+SELL ADD 7873 288
+printorderbook 57
+SELL ADD 7850 330
+printorderbook 6
+SELL ADD 7969 180
+printorderbook 29
+BUY ADD 7974 32
+printorderbook 11
+BUY ADD 7835 303
+printorderbook 8
+SELL ADD 7977 355
+SELL CANCEL 40 294
+printorderbook 53
+BUY ADD 7875 209
+printorderbook 31
+SELL ADD 7889 56
+printorderbook 54
+BUY ADD 7903 321
+printorderbook 41
+SELL ADD 7922 455
+printorderbook 60
+SELL ADD 7945 8
+printorderbook 8
+SELL ADD 7816 27
+printorderbook 14
+SELL ADD 7867 86
+BUY CANCEL 460 32
+printorderbook 33
+SELL ADD 7863 381
+printorderbook 54
+BUY ADD 7877 495
+printorderbook 18
+BUY ADD 7850 317
+printorderbook 34
+SELL ADD 7963 353
+printorderbook 41
+SELL ADD 7879 477
+printorderbook 22
+SELL ADD 7998 302
+printorderbook 55
+BUY ADD 7949 124
+SELL CANCEL 456 12
+printorderbook 11
+BUY ADD 7989 306
+printorderbook 4
+BUY ADD 7942 243
+printorderbook 27
+SELL ADD 7970 87
+printorderbook 51
+BUY ADD 7941 496
+printorderbook 20
+SELL ADD 7978 53
+printorderbook 26
+BUY ADD 7945 481
+printorderbook 50
+BUY ADD 7987 138
+SELL CANCEL 51 149
+printorderbook 41
+SELL ADD 7824 207
+printorderbook 12
+SELL ADD 7856 85
+printorderbook 37
+SELL ADD 7838 24
+printorderbook 50
+SELL ADD 7954 374
+printorderbook 27
+SELL ADD 7820 56
+printorderbook 27
+SELL ADD 7857 121
+printorderbook 36
+SELL ADD 7908 467
+BUY CANCEL 444 234
+printorderbook 60
+SELL ADD 7964 304
+printorderbook 27
+SELL ADD 7949 416
+printorderbook 50
+SELL ADD 7816 450
+printorderbook 43
+SELL ADD 7891 250
+printorderbook 66
+BUY ADD 7813 147
+printorderbook 63
+BUY ADD 7868 275
+printorderbook 12
+BUY ADD 7869 81
+BUY CANCEL 313 317
+printorderbook 20
+BUY ADD 7991 259
+printorderbook 57
+BUY ADD 7869 31
+printorderbook 32
+BUY ADD 7915 156
+printorderbook 28
+SELL ADD 7882 355
+printorderbook 59
+BUY ADD 7914 199
+printorderbook 67
+SELL ADD 7958 104
+printorderbook 19
+SELL ADD 7997 270
+SELL CANCEL 377 378
+printorderbook 36
+SELL ADD 7961 191
+printorderbook 15
+BUY ADD 7995 242
+printorderbook 39
+BUY ADD 7829 440
+printorderbook 69
+BUY ADD 7955 50
+printorderbook 15
+SELL ADD 7831 474
+printorderbook 66
+BUY ADD 7806 364
+printorderbook 31
+SELL ADD 7990 401
+BUY CANCEL 502 199
+printorderbook 27
+BUY ADD 7998 278
+printorderbook 16
+SELL ADD 7998 27
+printorderbook 17
+BUY ADD 7959 75
+printorderbook 35
+BUY ADD 7879 188
+printorderbook 28
+SELL ADD 7919 90
+printorderbook 57
+BUY ADD 7878 184
+printorderbook 11
+BUY ADD 7924 463
+SELL CANCEL 46 219
+printorderbook 54
+BUY ADD 7824 283
+printorderbook 24
+SELL ADD 7846 400
+printorderbook 47
+BUY ADD 7841 29
+printorderbook 17
+SELL ADD 7955 217
+printorderbook 64
+BUY ADD 7999 234
+printorderbook 56
+SELL ADD 7858 374
+printorderbook 52
+BUY ADD 7897 257
+SELL CANCEL 229 339
+printorderbook 23
+SELL ADD 7922 413
+printorderbook 15
+BUY ADD 7872 56
+printorderbook 6
+BUY ADD 7872 43
+printorderbook 65
+SELL ADD 7859 37
+printorderbook 68
+BUY ADD 7938 116
+printorderbook 30
+BUY ADD 7921 174
+printorderbook 28
+SELL ADD 7943 52
+BUY CANCEL 392 360
+printorderbook 32
+BUY ADD 7804 459
+printorderbook 28
+BUY ADD 7913 268
+printorderbook 51
+BUY ADD 7891 134
+printorderbook 50
+SELL ADD 7942 405
+printorderbook 48
+SELL ADD 7996 326
+printorderbook 5
+BUY ADD 7827 218
+printorderbook 33
+SELL ADD 7875 427
+SELL CANCEL 309 25
+printorderbook 28
+BUY ADD 7810 186
+printorderbook 62
+SELL ADD 7809 27
+printorderbook 28
+BUY ADD 7888 200
+printorderbook 22
+SELL ADD 7968 16
+printorderbook 7
+SELL ADD 7997 54
+printorderbook 42
+BUY ADD 7971 272
+printorderbook 47
+BUY ADD 7964 44
+SELL CANCEL 263 120
+printorderbook 13
+BUY ADD 7816 424
+printorderbook 52
+BUY ADD 7810 368
+printorderbook 57
+BUY ADD 7826 293
+printorderbook 18
+BUY ADD 7824 488
+printorderbook 53
+BUY ADD 7813 340
+printorderbook 17
+SELL ADD 7951 108
+printorderbook 50
+SELL ADD 7806 391
+BUY CANCEL 407 478
+printorderbook 15
+BUY ADD 7911 58
+printorderbook 61
+SELL ADD 7840 328
+printorderbook 20
+BUY ADD 7953 198
+printorderbook 46
+SELL ADD 7895 411
+printorderbook 68
+SELL ADD 7811 2
+printorderbook 40
+BUY ADD 7822 217
+printorderbook 26
+BUY ADD 7803 419
+SELL CANCEL 7 138
+printorderbook 12
+SELL ADD 7935 362
+printorderbook 23
+BUY ADD 7812 334
+printorderbook 41
+SELL ADD 7992 430
+printorderbook 33
+BUY ADD 7884 23
+printorderbook 37
+BUY ADD 7848 81
+printorderbook 69
+SELL ADD 7866 261
+printorderbook 37
+BUY ADD 7834 310
+BUY CANCEL 465 321
+printorderbook 62
+BUY ADD 7945 263
+printorderbook 67
+SELL ADD 7897 440
+printorderbook 50
+BUY ADD 7871 470
+printorderbook 58
+BUY ADD 7916 346
+printorderbook 40
+BUY ADD 7894 9
+printorderbook 14
+SELL ADD 7881 128
+printorderbook 35
+BUY ADD 7914 409
+BUY CANCEL 312 51
+printorderbook 8
+SELL ADD 7810 407
+printorderbook 67
+SELL ADD 7947 281
+printorderbook 42
+SELL ADD 7878 436
+printorderbook 55
+BUY ADD 7904 368
+printorderbook 28
+BUY ADD 7972 291
+printorderbook 12
+BUY ADD 7944 101
+printorderbook 50
+BUY ADD 7852 156
+BUY CANCEL 353 212
+printorderbook 7
+BUY ADD 7939 439
+printorderbook 69
+BUY ADD 7816 24
+printorderbook 32
+BUY ADD 7856 105
+printorderbook 16
+BUY ADD 7923 203
+printorderbook 6
+BUY ADD 7914 22
+printorderbook 25
+BUY ADD 7986 462
+printorderbook 65
+BUY ADD 7811 20
+SELL CANCEL 217 282
+printorderbook 68
+BUY ADD 7926 487
+printorderbook 17
+SELL ADD 7843 71
+printorderbook 54
+SELL ADD 7847 315
+printorderbook 17
+SELL ADD 7903 335
+printorderbook 56
+BUY ADD 7917 196
+printorderbook 23
+SELL ADD 7831 480
+printorderbook 35
+SELL ADD 7942 151
+BUY CANCEL 47 3
+printorderbook 38
+BUY ADD 7856 317
+printorderbook 46
+SELL ADD 7843 445
+printorderbook 54
+SELL ADD 7842 345
+printorderbook 50
+BUY ADD 7927 316
+printorderbook 24
+SELL ADD 7876 204
+printorderbook 61
+BUY ADD 7974 14
+printorderbook 54
+SELL ADD 7984 231
+SELL CANCEL 573 128
+printorderbook 24
+SELL ADD 7966 218
+printorderbook 28
+SELL ADD 7899 439
+printorderbook 17
+SELL ADD 7837 116
+printorderbook 49
+BUY ADD 7904 140
+printorderbook 69
+SELL ADD 7945 316
+printorderbook 58
+BUY ADD 7836 113
+printorderbook 35
+BUY ADD 7990 255
+BUY CANCEL 48 4
+printorderbook 15
+BUY ADD 7970 379
+printorderbook 7
+SELL ADD 7862 77
+printorderbook 16
+BUY ADD 7800 163
+printorderbook 59
+SELL ADD 7952 415
+printorderbook 44
+SELL ADD 7818 390
+printorderbook 42
+SELL ADD 7955 313
+printorderbook 44
+SELL ADD 7920 383
+BUY CANCEL 155 17
+printorderbook 9
+SELL ADD 7807 206
+printorderbook 35
+BUY ADD 7918 137
+printorderbook 16
+BUY ADD 7808 407
+printorderbook 42
+BUY ADD 7897 461
+printorderbook 26
+BUY ADD 7994 35
+printorderbook 22
+SELL ADD 7845 455
+printorderbook 12
+SELL ADD 7948 139
+BUY CANCEL 405 408
+printorderbook 30
+SELL ADD 7800 85
+printorderbook 69
+BUY ADD 7819 35
+printorderbook 2
+BUY ADD 7940 59
+printorderbook 30
+BUY ADD 7988 209
+printorderbook 3
+SELL ADD 7883 468
+printorderbook 8
+SELL ADD 7836 381
+printorderbook 66
+SELL ADD 7928 30
+BUY CANCEL 542 200
+printorderbook 54
+BUY ADD 7939 474
+printorderbook 48
+SELL ADD 7940 497
+printorderbook 13
+BUY ADD 7875 434
+printorderbook 7
+BUY ADD 7826 51
+printorderbook 46
+BUY ADD 7949 205
+printorderbook 63
+BUY ADD 7922 219
+printorderbook 65
+SELL ADD 7827 458
+SELL CANCEL 50 53
+printorderbook 47
+BUY ADD 7963 348
+printorderbook 11
+BUY ADD 7811 454
+printorderbook 58
+BUY ADD 7907 41
+printorderbook 30
+BUY ADD 7824 21
+printorderbook 61
+SELL ADD 7966 153
+printorderbook 58
+SELL ADD 7843 380
+printorderbook 25
+BUY ADD 7824 330
+SELL CANCEL 274 199
+printorderbook 30
+BUY ADD 7810 283
+printorderbook 7
+SELL ADD 7993 43
+printorderbook 61
+SELL ADD 7930 160
+printorderbook 36
+BUY ADD 7878 407
+printorderbook 64
+SELL ADD 7919 162
+printorderbook 14
+SELL ADD 7924 135
+printorderbook 7
+BUY ADD 7993 227
+SELL CANCEL 370 377
+printorderbook 8
+SELL ADD 7951 134
+printorderbook 55
+BUY ADD 7899 297
+printorderbook 50
+SELL ADD 7841 495
+printorderbook 18
+BUY ADD 7802 476
+printorderbook 63
+BUY ADD 7929 32
+printorderbook 17
+SELL ADD 7803 177
+printorderbook 34
+BUY ADD 7941 430
+SELL CANCEL 319 294
+printorderbook 33
+BUY ADD 7847 147
+printorderbook 63
+BUY ADD 7956 487
+printorderbook 17
+BUY ADD 7831 2
+printorderbook 18
+SELL ADD 7863 93
+printorderbook 8
+SELL ADD 7995 481
+printorderbook 47
+SELL ADD 7837 44
+printorderbook 13
+SELL ADD 7918 290
+BUY CANCEL 211 42
+printorderbook 47
+SELL ADD 7972 214
+printorderbook 57
+BUY ADD 7974 97
+printorderbook 40
+BUY ADD 7988 369
+printorderbook 52
+SELL ADD 7809 345
+printorderbook 60
+BUY ADD 7948 38
+printorderbook 54
+BUY ADD 7945 150
+printorderbook 68
+BUY ADD 7998 146
+BUY CANCEL 327 427
+printorderbook 32
+BUY ADD 7813 33
+printorderbook 50
+SELL ADD 7992 270
+printorderbook 50
+BUY ADD 7824 346
+printorderbook 2
+BUY ADD 7864 289
+printorderbook 39
+SELL ADD 7870 416
+printorderbook 60
+BUY ADD 7897 83
+printorderbook 8
+BUY ADD 7935 140
+BUY CANCEL 116 298
+printorderbook 35
+SELL ADD 7823 348
+printorderbook 48
+SELL ADD 7877 470
+printorderbook 44
+BUY ADD 7811 152
+printorderbook 46
+BUY ADD 7961 436
+printorderbook 14
+SELL ADD 7937 158
+printorderbook 24
+SELL ADD 7973 338
+printorderbook 67
+BUY ADD 7865 143
+BUY CANCEL 502 199
+printorderbook 44
+BUY ADD 7990 144
+printorderbook 59
+BUY ADD 7917 232
+printorderbook 41
+SELL ADD 7935 498
+printorderbook 70
+SELL ADD 7802 474
+printorderbook 57
+BUY ADD 7929 486
+printorderbook 62
+BUY ADD 7849 183
+printorderbook 13
+SELL ADD 7914 113
+BUY CANCEL 162 372
+printorderbook 67
+BUY ADD 7829 245
+printorderbook 58
+BUY ADD 7953 18
+printorderbook 36
+SELL ADD 7930 405
+printorderbook 29
+SELL ADD 7896 124
+printorderbook 42
+SELL ADD 7851 253
+printorderbook 30
+SELL ADD 7962 384
+printorderbook 28
+SELL ADD 7987 202
+BUY CANCEL 382 40
+printorderbook 36
+SELL ADD 7803 402
+printorderbook 41
+BUY ADD 7801 82
+printorderbook 37
+SELL ADD 7933 182
+printorderbook 54
+SELL ADD 7904 294
+printorderbook 15
+SELL ADD 7835 381
+printorderbook 66
+BUY ADD 7989 341
+printorderbook 4
+SELL ADD 7869 440
+SELL CANCEL 629 381
+printorderbook 4
+BUY ADD 7870 129
+printorderbook 31
+SELL ADD 7834 66
+printorderbook 38
+SELL ADD 7811 225
+printorderbook 28
+SELL ADD 7910 7
+printorderbook 49
+SELL ADD 7976 377
+printorderbook 30
+BUY ADD 7894 257
+printorderbook 67
+BUY ADD 7909 62
+BUY CANCEL 150 105
+printorderbook 70
+BUY ADD 7894 311
+printorderbook 24
+SELL ADD 7901 176
+printorderbook 27
+SELL ADD 7941 126
+printorderbook 60
+SELL ADD 7907 207
+printorderbook 50
+BUY ADD 7862 169
+printorderbook 47
+SELL ADD 7895 467
+printorderbook 6
+BUY ADD 7804 261
+SELL CANCEL 185 481
+printorderbook 44
+SELL ADD 7923 51
+printorderbook 56
+BUY ADD 7847 411
+printorderbook 17
+SELL ADD 7868 122
+printorderbook 54
+BUY ADD 7991 37
+printorderbook 66
+BUY ADD 7898 355
+printorderbook 64
+SELL ADD 7901 464
+printorderbook 8
+BUY ADD 7990 9
+BUY CANCEL 686 143
+printorderbook 31
+BUY ADD 7901 105
+printorderbook 56
+BUY ADD 7866 479
+printorderbook 8
+BUY ADD 7864 149
+printorderbook 53
+BUY ADD 7896 457
+printorderbook 63
+BUY ADD 7940 259
+printorderbook 52
+SELL ADD 7991 129
+printorderbook 60
+SELL ADD 7920 21
+SELL CANCEL 445 201
+printorderbook 48
+SELL ADD 7973 202
+printorderbook 7
+BUY ADD 7998 483
+printorderbook 36
+BUY ADD 7833 386
+printorderbook 51
+BUY ADD 7896 164
+printorderbook 66
+SELL ADD 7997 102
+printorderbook 35
+SELL ADD 7919 393
+printorderbook 8
+SELL ADD 7857 71
+SELL CANCEL 322 99
+printorderbook 36
+SELL ADD 7915 491
+printorderbook 40
+SELL ADD 7844 282
+printorderbook 14
+BUY ADD 7812 207
+printorderbook 60
+SELL ADD 7995 272
+printorderbook 22
+BUY ADD 7983 74
+printorderbook 27
+BUY ADD 7981 95
+printorderbook 44
+SELL ADD 7928 450
+BUY CANCEL 656 32
+printorderbook 42
+SELL ADD 7988 113
+printorderbook 68
+BUY ADD 7914 465
+printorderbook 27
+BUY ADD 7893 25
+printorderbook 22
+SELL ADD 7955 346
+printorderbook 3
+SELL ADD 7872 438
+printorderbook 56
+BUY ADD 7884 103
+printorderbook 34
+SELL ADD 7962 50
+BUY CANCEL 149 305
+printorderbook 25
+SELL ADD 7815 206
+printorderbook 40
+SELL ADD 7972 490
+printorderbook 10
+BUY ADD 7896 272
+printorderbook 21
+SELL ADD 7925 319
+printorderbook 14
+SELL ADD 7928 320
+printorderbook 27
+BUY ADD 7863 372
+printorderbook 16
+BUY ADD 7862 467
+BUY CANCEL 280 71
+printorderbook 61
+SELL ADD 7882 159
+printorderbook 4
+BUY ADD 7928 122
+printorderbook 12
+SELL ADD 7963 232
+printorderbook 68
+BUY ADD 7981 447
+printorderbook 56
+SELL ADD 7963 220
+printorderbook 16
+BUY ADD 7993 281
+printorderbook 66
+SELL ADD 7971 228
+SELL CANCEL 624 85
+printorderbook 34
+BUY ADD 7963 183
+printorderbook 25
+BUY ADD 7979 98
+printorderbook 39
+SELL ADD 7956 14
+printorderbook 26
+SELL ADD 7994 328
+printorderbook 4
+BUY ADD 7881 102
+printorderbook 19
+SELL ADD 7808 148
+printorderbook 54
+SELL ADD 7842 274
+BUY CANCEL 401 408
+printorderbook 57
+SELL ADD 7959 328
+printorderbook 69
+SELL ADD 7964 133
+printorderbook 45
+BUY ADD 7842 350
+printorderbook 56
+BUY ADD 7989 7
+printorderbook 44
+SELL ADD 7968 321
+printorderbook 14
+BUY ADD 7929 119
+printorderbook 28
+BUY ADD 7893 431
+SELL CANCEL 36 52
+printorderbook 37
+SELL ADD 7877 176
+printorderbook 42
+BUY ADD 7953 480
+printorderbook 16
+BUY ADD 7901 239
+printorderbook 24
+SELL ADD 7799 341
+printorderbook 61
+BUY ADD 7984 266
+printorderbook 19
+BUY ADD 7894 267
+printorderbook 24
+SELL ADD 7969 123
+BUY CANCEL 635 205
+printorderbook 7
+BUY ADD 7978 294
+printorderbook 69
+BUY ADD 7943 192
+printorderbook 23
+SELL ADD 7886 413
+printorderbook 39
+BUY ADD 7810 356
+printorderbook 30
+SELL ADD 7800 307
+printorderbook 17
+SELL ADD 7905 225
+printorderbook 60
+BUY ADD 7987 161
+SELL CANCEL 370 377
+printorderbook 10
+BUY ADD 7978 387
+printorderbook 61
+SELL ADD 7850 276
+printorderbook 65
+SELL ADD 7817 380
+printorderbook 66
+SELL ADD 7963 248
+printorderbook 27
+BUY ADD 7803 209
+printorderbook 13
+BUY ADD 7841 363
+printorderbook 22
+BUY ADD 7891 97
+SELL CANCEL 768 220
+printorderbook 49
+BUY ADD 7842 430
+printorderbook 40
+SELL ADD 7891 81
+printorderbook 65
+BUY ADD 7945 282
+printorderbook 46
+SELL ADD 7941 319
+printorderbook 44
+BUY ADD 7925 114
+printorderbook 30
+SELL ADD 7917 215
+printorderbook 44
+BUY ADD 7849 220
+SELL CANCEL 486 24
+printorderbook 60
+SELL ADD 7900 401
+printorderbook 18
+SELL ADD 7845 444
+printorderbook 5
+BUY ADD 7903 405
+printorderbook 44
+SELL ADD 7804 436
+printorderbook 58
+SELL ADD 7877 110
+printorderbook 11
+SELL ADD 7932 433
+printorderbook 26
+SELL ADD 7955 76
+BUY CANCEL 580 101
+printorderbook 5
+SELL ADD 7939 82
+printorderbook 36
+SELL ADD 7964 34
+printorderbook 11
+SELL ADD 7972 233
+printorderbook 54
+BUY ADD 7957 131
+printorderbook 59
+SELL ADD 7966 278
+printorderbook 63
+SELL ADD 7969 158
+printorderbook 34
+SELL ADD 7821 81
+SELL CANCEL 354 238
+printorderbook 20
+BUY ADD 7817 410
+printorderbook 15
+BUY ADD 7920 40
+printorderbook 14
+SELL ADD 7925 447
+printorderbook 65
+BUY ADD 7876 410
+printorderbook 11
+SELL ADD 7949 112
+printorderbook 49
+SELL ADD 7817 159
+printorderbook 17
+SELL ADD 7912 65
+SELL CANCEL 302 133
+printorderbook 24
+BUY ADD 7975 316
+printorderbook 47
+BUY ADD 7874 206
+printorderbook 12
+SELL ADD 7907 135
+printorderbook 69
+SELL ADD 7931 360
+printorderbook 11
+SELL ADD 7840 202
+printorderbook 41
+BUY ADD 7886 33
+printorderbook 5
+BUY ADD 7898 121
+SELL CANCEL 35 410
+printorderbook 63
+SELL ADD 7949 346
+printorderbook 37
+BUY ADD 7862 108
+printorderbook 49
+BUY ADD 7960 159
+printorderbook 15
+SELL ADD 7850 435
+printorderbook 64
+BUY ADD 7857 97
+printorderbook 48
+BUY ADD 7983 281
+printorderbook 42
+SELL ADD 7809 242
+BUY CANCEL 827 410
+printorderbook 29
+BUY ADD 7846 465
+printorderbook 70
+SELL ADD 7993 125
+printorderbook 35
+BUY ADD 7844 215
+printorderbook 32
+SELL ADD 7848 441
+printorderbook 49
+SELL ADD 7972 337
+printorderbook 51
+SELL ADD 7844 489
+printorderbook 54
+BUY ADD 7829 57
+SELL CANCEL 320 177
+printorderbook 25
+SELL ADD 7868 436
+printorderbook 43
+SELL ADD 7821 483
+printorderbook 37
+BUY ADD 7808 97
+printorderbook 14
+SELL ADD 7812 44
+printorderbook 11
+BUY ADD 7937 55
+printorderbook 3
+SELL ADD 7851 324
+printorderbook 6
+SELL ADD 7860 160
+SELL CANCEL 501 355
+printorderbook 3
+SELL ADD 7897 422
+printorderbook 67
+BUY ADD 7837 31
+printorderbook 17
+SELL ADD 7971 359
+printorderbook 16
+BUY ADD 7873 478
+printorderbook 10
+SELL ADD 7910 419
+printorderbook 3
+BUY ADD 7901 141
+printorderbook 58
+SELL ADD 7907 97
+SELL CANCEL 348 321
+printorderbook 32
+BUY ADD 7828 286
+printorderbook 57
+BUY ADD 7841 247
+printorderbook 31
+SELL ADD 7905 300
+printorderbook 13
+BUY ADD 7990 437
+printorderbook 5
+BUY ADD 7914 265
+printorderbook 40
+SELL ADD 7891 452
+printorderbook 35
+BUY ADD 7987 465
+SELL CANCEL 742 71
+printorderbook 64
+SELL ADD 7940 67
+printorderbook 9
+SELL ADD 7875 322
+printorderbook 34
+BUY ADD 7869 343
+printorderbook 46
+BUY ADD 7806 115
+printorderbook 48
+BUY ADD 7834 88
+printorderbook 41
+SELL ADD 7948 496
+printorderbook 29
+BUY ADD 7819 291
+BUY CANCEL 668 369
+printorderbook 13
+BUY ADD 7901 402
+printorderbook 13
+SELL ADD 7981 393
+printorderbook 19
+BUY ADD 7949 332
+printorderbook 9
+BUY ADD 7996 307
+printorderbook 69
+BUY ADD 7971 80
+printorderbook 17
+SELL ADD 7989 386
+printorderbook 39
+BUY ADD 7816 227
+SELL CANCEL 858 44
+printorderbook 70
+SELL ADD 7862 405
+printorderbook 35
+SELL ADD 7885 122
+printorderbook 22
+BUY ADD 7804 279
+printorderbook 24
+BUY ADD 7833 253
+printorderbook 46
+BUY ADD 7941 322
+printorderbook 64
+SELL ADD 7888 85
+printorderbook 8
+SELL ADD 7996 285
+SELL CANCEL 277 228
+printorderbook 26
+SELL ADD 7934 129
+printorderbook 9
+BUY ADD 7862 43
+printorderbook 17
+SELL ADD 7802 399
+printorderbook 48
+BUY ADD 7896 395
+printorderbook 48
+BUY ADD 7995 436
+printorderbook 7
+SELL ADD 7850 292
+printorderbook 11
+SELL ADD 7963 171
+BUY CANCEL 170 216
+printorderbook 46
+SELL ADD 7937 104
+printorderbook 69
+BUY ADD 7998 458
+printorderbook 4
+SELL ADD 7967 247
+printorderbook 61
+SELL ADD 7877 153
+printorderbook 57
+SELL ADD 7987 461
+printorderbook 20
+BUY ADD 7865 191
+printorderbook 40
+SELL ADD 7928 214
+BUY CANCEL 885 332
+printorderbook 10
+SELL ADD 7893 258
+printorderbook 12
+BUY ADD 7928 496
+printorderbook 65
+BUY ADD 7966 41
+printorderbook 55
+SELL ADD 7814 444
+printorderbook 68
+SELL ADD 7943 274
+printorderbook 34
+SELL ADD 7962 384
+printorderbook 4
+BUY ADD 7904 214
+SELL CANCEL 705 381
+printorderbook 7
+BUY ADD 7962 307
+printorderbook 65
+BUY ADD 7817 134
+printorderbook 30
+BUY ADD 7987 308
+printorderbook 50
+SELL ADD 7837 424
+printorderbook 55
+SELL ADD 7936 419
+printorderbook 53
+BUY ADD 7899 142
+printorderbook 61
+SELL ADD 7959 424
+BUY CANCEL 599 316
+printorderbook 11
+SELL ADD 7825 500
+printorderbook 8
+BUY ADD 7953 109
+printorderbook 11
+SELL ADD 7977 258
+printorderbook 26
+SELL ADD 7832 470
+printorderbook 40
+BUY ADD 7996 486
+printorderbook 57
+BUY ADD 7975 178
+printorderbook 43
+SELL ADD 7903 325
+BUY CANCEL 70 230
+printorderbook 21
+BUY ADD 7812 221
+printorderbook 13
+SELL ADD 7900 19
+printorderbook 4
+SELL ADD 7910 451
+printorderbook 67
+BUY ADD 7994 262
+printorderbook 24
+SELL ADD 7876 331
+printorderbook 20
+SELL ADD 7806 460
+printorderbook 67
+BUY ADD 7839 375
+BUY CANCEL 441 410
+printorderbook 44
+SELL ADD 7922 144
+printorderbook 49
+SELL ADD 7912 312
+printorderbook 14
+BUY ADD 7846 306
+printorderbook 1
+BUY ADD 7883 7
+printorderbook 69
+SELL ADD 7990 113
+printorderbook 37
+BUY ADD 7984 155
+printorderbook 10
+SELL ADD 7879 435
+BUY CANCEL 465 321
+printorderbook 41
+SELL ADD 7955 195
+printorderbook 17
+SELL ADD 7899 78
+printorderbook 59
+SELL ADD 7881 274
+printorderbook 62
+BUY ADD 7923 312
+printorderbook 54
+BUY ADD 7906 181
+printorderbook 26
+BUY ADD 7898 236
+printorderbook 56
+SELL ADD 7942 97
+BUY CANCEL 16 159
+printorderbook 34
+BUY ADD 7974 292
+printorderbook 1
+SELL ADD 7916 315
+printorderbook 36
+SELL ADD 7979 401
+printorderbook 52
+SELL ADD 7855 402
+printorderbook 13
+BUY ADD 7834 386
+printorderbook 66
+BUY ADD 7823 172
+printorderbook 40
+BUY ADD 7877 103
+SELL CANCEL 10 385
+printorderbook 32
+SELL ADD 7810 294
+printorderbook 2
+SELL ADD 7820 371
+printorderbook 29
+BUY ADD 7888 489
+printorderbook 69
+BUY ADD 7856 432
+printorderbook 65
+BUY ADD 7896 112
+printorderbook 51
+SELL ADD 7935 275
+printorderbook 47
+BUY ADD 7799 90
+BUY CANCEL 941 306
+printorderbook 23
+BUY ADD 7955 400
+printorderbook 65
+BUY ADD 7986 317
+printorderbook 10
+SELL ADD 7973 159
+printorderbook 23
+BUY ADD 7930 448
+printorderbook 47
+SELL ADD 7907 81
+printorderbook 67
+BUY ADD 7816 301
+printorderbook 10
+BUY ADD 7906 1
+SELL CANCEL 156 361
+printorderbook 14
+SELL ADD 7889 218
+printorderbook 38
+BUY ADD 7991 357
+printorderbook 1
+SELL ADD 7997 277
+printorderbook 26
+BUY ADD 7954 250
+printorderbook 42
+BUY ADD 7818 145
+printorderbook 12
+SELL ADD 7855 229
+printorderbook 36
+BUY ADD 7848 300
+SELL CANCEL 128 480
+printorderbook 57
+SELL ADD 7988 340
+printorderbook 28
+BUY ADD 7988 5
+printorderbook 70
+SELL ADD 7903 168
+printorderbook 28
+BUY ADD 7819 87
+printorderbook 55
+SELL ADD 7929 4
+printorderbook 12
+BUY ADD 7802 28
+printorderbook 48
+SELL ADD 7923 260
+SELL CANCEL 278 299
+printorderbook 62
+SELL ADD 7801 482
+printorderbook 29
+SELL ADD 7835 277
+printorderbook 61
+SELL ADD 7955 239
+printorderbook 52
+BUY ADD 7990 393
+printorderbook 19
+BUY ADD 7879 259
+printorderbook 67
+BUY ADD 7823 208
+printorderbook 46
+SELL ADD 7909 208
+SELL CANCEL 263 120
+printorderbook 1
+SELL ADD 7935 358
+printorderbook 40
+SELL ADD 7967 292
+printorderbook 47
+BUY ADD 7923 486
+printorderbook 3
+BUY ADD 7942 301
+printorderbook 31
+BUY ADD 7864 208
+printorderbook 20
+SELL ADD 7903 360
+printorderbook 57
+SELL ADD 7891 110
+BUY ADD 7986 260
+SELL ADD 7905 5
+SELL ADD 7936 465
+BUY ADD 7930 351
+BUY ADD 7808 165
+BUY ADD 7872 491
+BUY CANCEL 6 165
+SELL ADD 7976 219
+SELL ADD 7854 84
+BUY ADD 7811 253
+SELL ADD 7898 46
+SELL ADD 7876 457
+SELL ADD 7809 385
+SELL ADD 7937 315
+BUY CANCEL 10 253
+BUY ADD 7860 257
+BUY ADD 7967 208
+SELL ADD 7835 286
+SELL ADD 7899 374
+BUY ADD 7967 107
+SELL ADD 7854 208
+BUY ADD 7847 159
+SELL CANCEL 14 315
+BUY ADD 7877 75
+BUY ADD 7990 75
+SELL ADD 7912 245
+BUY ADD 7839 315
+BUY ADD 7960 239
+SELL ADD 7979 72
+SELL ADD 7976 82
+SELL CANCEL 11 46
+SELL ADD 7890 227
+BUY ADD 7842 455
+BUY ADD 7900 409
+SELL ADD 7926 413
+BUY ADD 7990 145
+BUY ADD 7882 438
+BUY ADD 7942 354
+BUY CANCEL 2 260
+BUY ADD 7812 245
+BUY ADD 7982 445
+SELL ADD 7997 224
+BUY ADD 7887 404
+SELL ADD 7830 309
+SELL ADD 7944 209
+BUY ADD 7966 415
+SELL CANCEL 4 465
+BUY ADD 7842 195
+BUY ADD 7853 143
+BUY ADD 7855 7
+BUY ADD 7963 200
+SELL ADD 7831 129
+SELL ADD 7926 398
+BUY ADD 7926 300
+BUY CANCEL 16 208
+SELL ADD 7904 294
+BUY ADD 7831 430
+BUY ADD 7862 265
+BUY ADD 7885 186
+SELL ADD 7877 40
+SELL ADD 7934 365
+BUY ADD 7987 231
+BUY CANCEL 37 445
+BUY ADD 7829 173
+BUY ADD 7802 322
+BUY ADD 7993 422
+SELL ADD 7803 354
+SELL ADD 7949 348
+BUY ADD 7800 41
+BUY ADD 7948 4
+BUY CANCEL 33 145
+BUY ADD 7842 314
+BUY ADD 7855 187
+SELL ADD 7820 388
+SELL ADD 7831 149
+SELL ADD 7903 76
+BUY ADD 7915 166
+BUY ADD 7799 16
+BUY CANCEL 35 354
+BUY ADD 7906 62
+SELL ADD 7922 64
+BUY ADD 7967 130
+SELL ADD 7979 381
+SELL ADD 7932 106
+BUY ADD 7834 217
+BUY ADD 7966 487
+BUY CANCEL 7 491
+BUY ADD 7849 385
+BUY ADD 7935 19
+SELL ADD 7930 186
+SELL ADD 7832 81
+BUY ADD 7989 311
+SELL ADD 7943 28
+BUY ADD 7812 489
+SELL CANCEL 28 82
+BUY ADD 7833 470
+SELL ADD 7824 81
+SELL ADD 7873 164
+BUY ADD 7951 350
+BUY ADD 7871 228
+SELL ADD 7883 146
+SELL ADD 7904 432
+BUY CANCEL 65 187
+SELL ADD 7891 398
+SELL ADD 7932 94
+SELL ADD 7988 303
+SELL ADD 7901 417
+SELL ADD 7925 22
+BUY ADD 7903 111
+SELL ADD 7940 132
+SELL CANCEL 38 224
+SELL ADD 7893 489
+SELL ADD 7805 296
+SELL ADD 7906 202
+BUY ADD 7973 75
+BUY ADD 7985 408
+BUY ADD 7988 79
+SELL ADD 7818 12
+SELL CANCEL 90 146
+BUY ADD 7939 97
+SELL ADD 7827 112
+BUY ADD 7804 381
+SELL ADD 7984 216
+BUY ADD 7919 260
+SELL ADD 7914 266
+BUY ADD 7909 334
+BUY CANCEL 64 314
+SELL ADD 7899 17
+BUY ADD 7806 54
+BUY ADD 7921 386
+SELL ADD 7938 244
+BUY ADD 7854 141
+BUY ADD 7846 299
+BUY ADD 7963 116
+SELL CANCEL 107 112
+BUY ADD 7986 430
+BUY ADD 7824 352
+SELL ADD 7819 173
+BUY ADD 7865 287
+SELL ADD 7994 246
+BUY ADD 7831 75
+SELL ADD 7884 326
+SELL CANCEL 9 84
+BUY ADD 7979 86
+SELL ADD 7903 139
+BUY ADD 7961 470
+BUY ADD 7975 96
+BUY ADD 7814 440
+SELL ADD 7882 338
+BUY ADD 7953 448
+BUY CANCEL 65 187
+SELL ADD 7937 39
+SELL ADD 7847 488
+BUY ADD 7871 397
+SELL ADD 7896 250
+BUY ADD 7828 41
+SELL ADD 7992 100
+SELL ADD 7914 293
+BUY CANCEL 52 265
+BUY ADD 7829 498
+SELL ADD 7963 188
+SELL ADD 7928 400
+SELL ADD 7866 73
+BUY ADD 7862 302
+BUY ADD 7902 133
+BUY ADD 7926 230
+SELL CANCEL 24 245
+BUY ADD 7958 145
+SELL ADD 7943 117
+SELL ADD 7814 284
+SELL ADD 7858 179
+BUY ADD 7892 472
+SELL ADD 7918 432
+SELL ADD 7966 330
+SELL CANCEL 4 465
+SELL ADD 7904 360
+BUY ADD 7931 322
+BUY ADD 7864 222
+SELL ADD 7822 418
+SELL ADD 7906 465
+SELL ADD 7918 124
+SELL ADD 7966 312
+BUY CANCEL 108 381
+BUY ADD 7822 338
+SELL ADD 7805 428
+BUY ADD 7811 140
+SELL ADD 7978 297
+BUY ADD 7913 218
+SELL ADD 7853 123
+SELL ADD 7991 109
+SELL CANCEL 132 338
+BUY ADD 7914 65
+BUY ADD 7900 60
+BUY ADD 7876 416
+SELL ADD 7929 424
+SELL ADD 7871 360
+BUY ADD 7830 85
+BUY ADD 7976 172
+BUY CANCEL 123 287
+BUY ADD 7855 86
+SELL ADD 7949 83
+BUY ADD 7886 465
+SELL ADD 7958 108
+SELL ADD 7985 309
+SELL ADD 7839 396
+SELL ADD 7822 328
+BUY CANCEL 70 16
+SELL ADD 7982 197
+BUY ADD 7825 471
+SELL ADD 7913 422
+BUY ADD 7886 175
+BUY ADD 7948 388
+BUY ADD 7862 64
+SELL ADD 7824 376
+SELL CANCEL 87 164
+SELL ADD 7936 427
+SELL ADD 7988 31
+SELL ADD 7844 300
+SELL ADD 7961 17
+BUY ADD 7933 120
+BUY ADD 7845 224
+BUY ADD 7902 430
+BUY CANCEL 120 430
+BUY ADD 7928 14
+SELL ADD 7911 61
+SELL ADD 7908 443
+SELL ADD 7859 457
+BUY ADD 7959 225
+BUY ADD 7893 201
+SELL ADD 7903 450
+SELL CANCEL 29 227
+BUY ADD 7881 17
+SELL ADD 7854 205
+BUY ADD 7926 1
+SELL ADD 7897 160
+SELL ADD 7876 29
+BUY ADD 7991 500
+SELL ADD 7839 272
+BUY CANCEL 43 195
+BUY ADD 7921 399
+SELL ADD 7904 286
+BUY ADD 7968 167
+BUY ADD 7880 278
+BUY ADD 7922 21
+SELL ADD 7833 212
+BUY ADD 7872 44
+SELL CANCEL 91 432
+SELL ADD 7912 266
+SELL ADD 7821 275
+SELL ADD 7811 459
+BUY ADD 7909 423
+BUY ADD 7994 81
+SELL ADD 7919 32
+BUY ADD 7855 216
+BUY CANCEL 45 7
+BUY ADD 7934 342
+SELL ADD 7983 3
+SELL ADD 7933 259
+SELL ADD 7818 223
+BUY ADD 7975 103
+SELL ADD 7821 281
+SELL ADD 7805 443
+BUY CANCEL 127 86
+SELL ADD 7986 275
+BUY ADD 7833 191
+BUY ADD 7859 445
+SELL ADD 7967 355
+BUY ADD 7817 391
+SELL ADD 7950 323
+SELL ADD 7890 82
+SELL CANCEL 98 132
+SELL ADD 7996 167
+SELL ADD 7863 321
+SELL ADD 7815 246
+SELL ADD 7931 2
+SELL ADD 7990 84
+SELL ADD 7991 111
+SELL ADD 7848 275
+BUY CANCEL 209 500
+BUY ADD 7979 380
+BUY ADD 7874 373
+BUY ADD 7927 52
+BUY ADD 7985 146
+BUY ADD 7965 96
+BUY ADD 7805 188
+SELL ADD 7918 275
+BUY CANCEL 196 430
+BUY ADD 7976 497
+SELL ADD 7949 345
+SELL ADD 7856 456
+SELL ADD 7979 275
+SELL ADD 7846 168
+SELL ADD 7932 410
+BUY ADD 7948 380
+BUY CANCEL 106 97
+BUY ADD 7931 139
+SELL ADD 7990 451
+BUY ADD 7881 398
+BUY ADD 7821 37
+SELL ADD 7877 280
+BUY ADD 7801 194
+BUY ADD 7853 82
+BUY CANCEL 215 21
+SELL ADD 7929 37
+SELL ADD 7898 109
+SELL ADD 7977 220
+BUY ADD 7914 72
+SELL ADD 7816 87
+SELL ADD 7832 123
+BUY ADD 7849 275
+BUY CANCEL 141 498
+SELL ADD 7881 458
+BUY ADD 7879 403
+SELL ADD 7825 485
+SELL ADD 7965 154
+BUY ADD 7866 42
+BUY ADD 7840 83
+SELL ADD 7973 46
+BUY CANCEL 70 16
+BUY ADD 7973 299
+BUY ADD 7964 344
+BUY ADD 7878 211
+SELL ADD 7962 148
+SELL ADD 7885 233
+BUY ADD 7911 334
+BUY ADD 7855 4
+SELL CANCEL 18 374
+SELL ADD 7850 369
+SELL ADD 7984 126
+BUY ADD 7894 254
+BUY ADD 7994 75
+SELL ADD 7953 228
+BUY ADD 7947 137
+SELL ADD 7957 40
+BUY CANCEL 247 373
+BUY ADD 7988 189
+BUY ADD 7845 431
+BUY ADD 7973 375
+SELL ADD 7880 182
+SELL ADD 7964 483
+SELL ADD 7944 208
+BUY ADD 7996 3
+SELL CANCEL 40 309
+BUY ADD 7846 341
+SELL ADD 7919 38
+SELL ADD 7946 479
+BUY ADD 7842 420
+SELL ADD 7853 418
+BUY ADD 7891 363
+SELL ADD 7819 218
+SELL CANCEL 75 106
+BUY ADD 7908 40
+SELL ADD 7893 170
+BUY ADD 7855 352
+BUY ADD 7835 266
+BUY ADD 7846 120
+BUY ADD 7973 20
+SELL ADD 7870 83
+SELL CANCEL 98 132
+SELL ADD 7980 296
+BUY ADD 7841 291
+SELL ADD 7861 185
+SELL ADD 7812 386
+SELL ADD 7992 349
+SELL ADD 7912 345
+SELL ADD 7831 7
+BUY CANCEL 260 139
+BUY ADD 7914 364
+BUY ADD 7894 293
+BUY ADD 7868 17
+BUY ADD 7881 82
+SELL ADD 7833 474
+BUY ADD 7866 418
+SELL ADD 7811 322
+BUY CANCEL 70 16
+BUY ADD 7872 63
+BUY ADD 7907 367
+BUY ADD 7940 361
+BUY ADD 7875 93
+SELL ADD 7939 246
+SELL ADD 7846 264
+SELL ADD 7934 299
+SELL CANCEL 276 485
+SELL ADD 7827 428
+SELL ADD 7854 50
+BUY ADD 7958 10
+BUY ADD 7861 161
+BUY ADD 7946 66
+SELL ADD 7820 442
+BUY ADD 7975 189
+SELL CANCEL 276 485
+BUY ADD 7812 296
+SELL ADD 7849 80
+BUY ADD 7813 94
+SELL ADD 7838 173
+SELL ADD 7995 331
+BUY ADD 7956 326
+SELL ADD 7850 13
+BUY CANCEL 170 60
+BUY ADD 7976 435
+SELL ADD 7844 409
+BUY ADD 7836 447
+SELL ADD 7869 347
+SELL ADD 7848 286
+SELL ADD 7857 161
+BUY ADD 7986 398
+BUY CANCEL 110 260
+SELL ADD 7811 98
+BUY ADD 7908 307
+BUY ADD 7928 96
+SELL ADD 7985 199
+SELL ADD 7959 412
+BUY ADD 7816 55
+BUY ADD 7931 254
+BUY CANCEL 65 187
+SELL ADD 7890 479
+SELL ADD 7902 299
+BUY ADD 7868 481
+SELL ADD 7820 397
+SELL ADD 7827 49
+SELL ADD 7942 290
+BUY ADD 7998 33
+SELL CANCEL 140 293
+SELL ADD 7996 68
+BUY ADD 7930 176
+BUY ADD 7833 242
+SELL ADD 7824 61
+SELL ADD 7883 130
+BUY ADD 7836 78
+BUY ADD 7818 172
+SELL CANCEL 347 173
+BUY ADD 7848 400
+BUY ADD 7961 259
+BUY ADD 7876 98
+BUY ADD 7939 133
+SELL ADD 7809 25
+BUY ADD 7855 112
+BUY ADD 7859 56
+BUY CANCEL 57 173
+BUY ADD 7937 114
+SELL ADD 7939 42
+SELL ADD 7846 429
+SELL ADD 7839 345
+BUY ADD 7802 119
+SELL ADD 7974 28
+BUY ADD 7976 162
+BUY CANCEL 70 16
+SELL ADD 7996 322
+BUY ADD 7955 222
+SELL ADD 7867 184
+BUY ADD 7954 433
+SELL ADD 7930 312
+SELL ADD 7953 133
+SELL ADD 7912 152
+BUY CANCEL 57 173
+BUY ADD 7949 33
+BUY ADD 7998 291
+SELL ADD 7892 208
+SELL ADD 7966 94
+BUY ADD 7892 198
+SELL ADD 7981 256
+SELL ADD 7987 252
+SELL CANCEL 200 457
+SELL ADD 7980 25
+BUY ADD 7906 154
+SELL ADD 7991 330
+BUY ADD 7902 187
+BUY ADD 7808 51
+BUY ADD 7927 408
+BUY ADD 7833 372
+SELL CANCEL 277 154
+BUY ADD 7985 32
+SELL ADD 7834 133
+BUY ADD 7895 350
+BUY ADD 7799 36
+SELL ADD 7993 298
+SELL ADD 7960 115
+SELL ADD 7839 323
+BUY CANCEL 247 373
+SELL ADD 7842 477
+SELL ADD 7826 111
+SELL ADD 7935 360
+SELL ADD 7998 99
+SELL ADD 7811 310
+SELL ADD 7871 74
+BUY ADD 7972 477
+BUY CANCEL 367 481
+BUY ADD 7989 451
+SELL ADD 7802 164
+BUY ADD 7985 436
+BUY ADD 7970 69
+SELL ADD 7925 433
+BUY ADD 7905 184
+BUY ADD 7858 289
+BUY CANCEL 82 311
+BUY ADD 7909 14
+BUY ADD 7896 392
+SELL ADD 7971 365
+SELL ADD 7847 406
+SELL ADD 7838 117
+SELL ADD 7812 491
+BUY ADD 7872 139
+SELL CANCEL 200 457
+SELL ADD 7986 223
+SELL ADD 7829 433
+BUY ADD 7983 18
+SELL ADD 7856 272
+SELL ADD 7805 308
+SELL ADD 7921 192
+SELL ADD 7945 72
+BUY CANCEL 49 300
+BUY ADD 7825 65
+BUY ADD 7920 20
+SELL ADD 7832 35
+SELL ADD 7936 72
+BUY ADD 7845 125
+SELL ADD 7930 114
+SELL ADD 7801 431
+SELL CANCEL 315 83
+SELL ADD 7988 141
+SELL ADD 7979 306
+BUY ADD 7803 445
+BUY ADD 7972 48
+BUY ADD 7903 243
+SELL ADD 7832 277
+BUY ADD 7937 345
+SELL CANCEL 126 326
+SELL ADD 7846 211
+SELL ADD 7885 231
+BUY ADD 7951 212
+BUY ADD 7886 302
+SELL ADD 7845 258
+BUY ADD 7884 335
+SELL ADD 7955 98
+BUY CANCEL 69 166
+BUY ADD 7897 383
+SELL ADD 7930 56
+BUY ADD 7888 78
+BUY ADD 7966 302
+SELL ADD 7897 350
+SELL ADD 7979 88
+BUY ADD 7911 244
+SELL CANCEL 254 345
+BUY ADD 7831 360
+SELL ADD 7801 30
+BUY ADD 7847 181
+BUY ADD 7862 168
+BUY ADD 7873 77
+SELL ADD 7921 284
+SELL ADD 7926 348
+BUY CANCEL 119 116
+BUY ADD 7928 365
+SELL ADD 7992 296
+SELL ADD 7910 146
+SELL ADD 7859 5
+BUY ADD 7885 4
+SELL ADD 7887 337
+BUY ADD 7880 248
+BUY CANCEL 145 302
+BUY ADD 7866 433
+SELL ADD 7802 435
+SELL ADD 7981 379
+BUY ADD 7998 174
+SELL ADD 7909 46
+SELL ADD 7985 248
+SELL ADD 7950 341
+BUY CANCEL 221 423
+BUY ADD 7943 350
+BUY ADD 7971 395
+SELL ADD 7900 256
+SELL ADD 7886 468
+BUY ADD 7898 41
+BUY ADD 7941 255
+SELL ADD 7872 187
+BUY CANCEL 89 228
+SELL ADD 7990 195
+BUY ADD 7838 228
+SELL ADD 7951 50
+BUY ADD 7843 89
+BUY ADD 7848 284
+SELL ADD 7888 27
+BUY ADD 7925 488
+SELL CANCEL 181 396
+BUY ADD 7991 429
+BUY ADD 7800 177
+BUY ADD 7948 129
+SELL ADD 7828 246
+SELL ADD 7993 286
+BUY ADD 7954 366
+SELL ADD 7962 263
+BUY CANCEL 305 420
+BUY ADD 7853 371
+SELL ADD 7968 58
+BUY ADD 7857 125
+BUY ADD 7803 242
+SELL ADD 7880 242
+SELL ADD 7809 201
+BUY ADD 7885 214
+BUY CANCEL 53 186
+SELL ADD 7913 42
+SELL ADD 7926 98
+SELL ADD 7917 443
+BUY ADD 7958 72
+SELL ADD 7861 305
+BUY ADD 7976 381
+SELL ADD 7882 53
+BUY CANCEL 234 445
+BUY ADD 7954 24
+BUY ADD 7911 39
+SELL ADD 7915 320
+BUY ADD 7951 255
+BUY ADD 7955 477
+BUY ADD 7981 207
+SELL ADD 7946 396
+SELL CANCEL 335 264
+BUY ADD 7936 375
+BUY ADD 7964 105
+BUY ADD 7860 164
+SELL ADD 7827 410
+SELL ADD 7973 395
+SELL ADD 7913 460
+BUY ADD 7962 432
+SELL CANCEL 497 341
+BUY ADD 7965 283
+BUY ADD 7904 315
+SELL ADD 7881 334
+SELL ADD 7901 314
+BUY ADD 7885 25
+BUY ADD 7826 394
+SELL ADD 7841 229
+SELL CANCEL 445 272
+SELL ADD 7998 195
+SELL ADD 7841 407
+SELL ADD 7856 182
+BUY ADD 7867 419
+BUY ADD 7876 43
+SELL ADD 7853 279
+BUY ADD 7979 120
+SELL CANCEL 455 431
+BUY ADD 7885 370
+SELL ADD 7917 434
+BUY ADD 7888 91
+BUY ADD 7887 233
+SELL ADD 7866 458
+SELL ADD 7828 476
+SELL ADD 7984 365
+BUY CANCEL 314 20
+BUY ADD 7838 433
+SELL ADD 7983 274
+SELL ADD 7958 147
+SELL ADD 7985 18
+BUY ADD 7919 232
+BUY ADD 7954 224
+BUY ADD 7858 30
+SELL CANCEL 308 218
+BUY ADD 7909 135
+BUY ADD 7965 301
+BUY ADD 7900 140
+BUY ADD 7834 177
+BUY ADD 7998 302
+SELL ADD 7876 109
+BUY ADD 7827 410
+SELL CANCEL 500 256
+BUY ADD 7864 4
+SELL ADD 7807 335
+BUY ADD 7997 152
+BUY ADD 7816 234
+BUY ADD 7899 337
+SELL ADD 7988 38
+SELL ADD 7955 268
+BUY CANCEL 141 498
+SELL ADD 7899 23
+SELL ADD 7835 307
+BUY ADD 7933 269
+BUY ADD 7976 453
+SELL ADD 7982 274
+BUY ADD 7951 150
+BUY ADD 7841 470
+SELL CANCEL 565 458
+SELL ADD 7929 226
+BUY ADD 7853 237
+BUY ADD 7989 294
+BUY ADD 7820 343
+BUY ADD 7971 369
+SELL ADD 7869 12
+SELL ADD 7864 185
+BUY CANCEL 346 94
+BUY ADD 7881 129
+BUY ADD 7813 239
+BUY ADD 7871 205
+BUY ADD 7974 32
+SELL ADD 7959 90
+BUY ADD 7818 29
+BUY ADD 7941 44
+SELL CANCEL 461 277
+BUY ADD 7875 209
+SELL ADD 7808 226
+SELL ADD 7953 393
+BUY ADD 7927 287
+SELL ADD 7922 455
+BUY ADD 7894 365
+SELL ADD 7819 116
+SELL CANCEL 54 40
+SELL ADD 7836 179
+SELL ADD 7833 490
+SELL ADD 7844 161
+BUY ADD 7952 271
+SELL ADD 7997 125
+BUY ADD 7850 317
+SELL ADD 7834 411
+SELL CANCEL 440 491
+BUY ADD 7828 200
+BUY ADD 7859 175
+BUY ADD 7920 392
+BUY ADD 7949 124
+BUY ADD 7827 258
+BUY ADD 7921 23
+BUY ADD 7942 243
+BUY CANCEL 234 445
+SELL ADD 7970 87
+BUY ADD 7997 355
+BUY ADD 7853 132
+BUY ADD 7820 184
+BUY ADD 7945 481
+BUY ADD 7920 470
+SELL ADD 7820 287
+SELL CANCEL 191 31
+SELL ADD 7881 78
+SELL ADD 7856 85
+BUY ADD 7819 98
+SELL ADD 7940 88
+BUY ADD 7948 188
+SELL ADD 7820 56
+SELL ADD 7841 146
+BUY CANCEL 156 322
+BUY ADD 7813 274
+BUY ADD 7980 429
+SELL ADD 7964 304
+SELL ADD 7843 375
+BUY ADD 7942 5
+SELL ADD 7979 302
+SELL ADD 7891 250
+BUY CANCEL 609 44
+BUY ADD 7813 147
+BUY ADD 7934 174
+BUY ADD 7832 387
+SELL ADD 7831 315
+SELL ADD 7997 480
+BUY ADD 7962 427
+SELL ADD 7811 225
+SELL CANCEL 354 347
+BUY ADD 7861 198
+SELL ADD 7882 355
+BUY ADD 7923 287
+SELL ADD 7990 209
+BUY ADD 7840 132
+SELL ADD 7997 270
+BUY ADD 7902 123
+BUY CANCEL 540 375
+SELL ADD 7839 466
+BUY ADD 7896 277
+BUY ADD 7829 440
+BUY ADD 7904 391
+SELL ADD 7841 124
+SELL ADD 7988 470
+BUY ADD 7806 364
+BUY CANCEL 293 137
+SELL ADD 7990 401
+BUY ADD 7875 454
+BUY ADD 7910 112
+SELL ADD 7998 27
+SELL ADD 7974 401
+SELL ADD 7896 474
+SELL ADD 7874 198
+BUY CANCEL 332 361
+BUY ADD 7835 403
+BUY ADD 7878 184
+SELL ADD 7987 313
+BUY ADD 7816 382
+BUY ADD 7824 283
+SELL ADD 7843 119
+BUY ADD 7933 379
+SELL CANCEL 144 73
+SELL ADD 7847 248
+BUY ADD 7886 453
+BUY ADD 7999 234
+BUY ADD 7806 147
+BUY ADD 7948 352
+SELL ADD 7901 218
+SELL ADD 7817 307
+BUY CANCEL 572 232
+SELL ADD 7934 183
+SELL ADD 7815 352
+SELL ADD 7816 465
+SELL ADD 7859 37
+BUY ADD 7937 347
+SELL ADD 7884 290
+BUY ADD 7868 197
+BUY CANCEL 148 145
+BUY ADD 7819 368
+SELL ADD 7973 14
+BUY ADD 7877 270
+BUY ADD 7906 362
+BUY ADD 7891 134
+BUY ADD 7849 357
+BUY ADD 7936 49
+SELL CANCEL 696 465
+BUY ADD 7810 478
+SELL ADD 7886 231
+SELL ADD 7875 427
+BUY ADD 7876 272
+SELL ADD 7873 439
+SELL ADD 7809 27
+SELL ADD 7957 224
+BUY CANCEL 286 334
+SELL ADD 7856 422
+SELL ADD 7816 150
+BUY ADD 7820 296
+BUY ADD 7971 272
+BUY ADD 7981 412
+SELL ADD 7895 91
+BUY ADD 7816 424
+SELL CANCEL 532 53
+BUY ADD 7810 368
+BUY ADD 7910 67
+BUY ADD 7849 378
+SELL ADD 7994 377
+BUY ADD 7813 340
+SELL ADD 7889 381
+SELL ADD 7941 175
+BUY CANCEL 25 315
+BUY ADD 7946 102
+BUY ADD 7911 58
+BUY ADD 7861 104
+BUY ADD 7855 410
+BUY ADD 7878 324
+SELL ADD 7895 411
+BUY ADD 7892 30
+BUY CANCEL 2 260
+BUY ADD 7939 58
+SELL ADD 7870 467
+SELL ADD 7967 7
+SELL ADD 7828 341
+BUY ADD 7862 489
+SELL ADD 7933 287
+SELL ADD 7992 430
+BUY CANCEL 349 326
+BUY ADD 7884 23
+BUY ADD 7956 123
+SELL ADD 7996 113
+SELL ADD 7903 258
+BUY ADD 7834 310
+BUY ADD 7975 358
+BUY ADD 7904 480
+SELL CANCEL 60 354
+SELL ADD 7975 354
+BUY ADD 7871 470
+BUY ADD 7969 293
+BUY ADD 7912 346
+SELL ADD 7802 92
+SELL ADD 7881 128
+SELL ADD 7988 289
+SELL CANCEL 618 490
+BUY ADD 7820 129
+SELL ADD 7962 476
+SELL ADD 7947 281
+BUY ADD 7840 198
+BUY ADD 7954 321
+BUY ADD 7946 193
+BUY ADD 7972 291
+SELL CANCEL 128 139
+BUY ADD 7944 101
+BUY ADD 7954 133
+SELL ADD 7921 41
+BUY ADD 7939 439
+BUY ADD 7986 44
+SELL ADD 7888 478
+SELL ADD 7841 111
+SELL CANCEL 685 119
+BUY ADD 7880 39
+BUY ADD 7914 22
+SELL ADD 7908 467
+BUY ADD 7984 358
+SELL ADD 7807 185
+BUY ADD 7924 319
+BUY ADD 7844 97
+BUY CANCEL 170 60
+SELL ADD 7954 116
+SELL ADD 7925 118
+SELL ADD 7903 335
+BUY ADD 7972 295
+SELL ADD 7862 246
+SELL ADD 7991 245
+SELL ADD 7942 151
+BUY CANCEL 62 41
+BUY ADD 7982 143
+BUY ADD 7929 214
+SELL ADD 7977 386
+SELL ADD 7842 345
+BUY ADD 7945 321
+BUY ADD 7866 224
+SELL ADD 7880 433
+BUY CANCEL 785 143
+BUY ADD 7804 385
+SELL ADD 7984 231
+BUY ADD 7865 157
+BUY ADD 7886 200
+SELL ADD 7899 439
+SELL ADD 7874 95
+SELL ADD 7938 396
+SELL CANCEL 419 115
+SELL ADD 7996 82
+BUY ADD 7925 412
+BUY ADD 7836 113
+SELL ADD 7907 478
+BUY ADD 7815 100
+BUY ADD 7970 379
+SELL ADD 7813 157
+SELL CANCEL 124 246
+SELL ADD 7964 5
+SELL ADD 7968 112
+BUY ADD 7965 311
+SELL ADD 7818 390
+BUY ADD 7893 391
+BUY ADD 7922 22
+BUY ADD 7952 126
+SELL CANCEL 92 398
+SELL ADD 7807 206
+SELL ADD 7968 297
+SELL ADD 7843 483
+SELL ADD 7962 298
+BUY ADD 7897 461
+SELL ADD 7915 487
+SELL ADD 7860 111
+SELL CANCEL 190 427
+BUY ADD 7831 196
+BUY ADD 7854 325
+SELL ADD 7822 3
+SELL ADD 7996 377
+SELL ADD 7812 10
+BUY ADD 7940 59
+SELL ADD 7976 473
+SELL CANCEL 345 80
+SELL ADD 7835 210
+BUY ADD 7820 206
+SELL ADD 7951 469
+SELL ADD 7928 30
+BUY ADD 7954 330
+BUY ADD 7989 340
+SELL ADD 7940 497
+SELL CANCEL 142 188
+BUY ADD 7875 434
+SELL ADD 7930 67
+SELL ADD 7929 345
+BUY ADD 7881 453
+BUY ADD 7922 219
+BUY ADD 7891 70
+BUY ADD 7814 336
+BUY CANCEL 767 439
+BUY ADD 7938 71
+BUY ADD 7811 454
+BUY ADD 7944 270
+SELL ADD 7883 264
+SELL ADD 7807 438
+SELL ADD 7966 153
+BUY ADD 7824 112
+SELL CANCEL 644 146
+SELL ADD 7918 64
+BUY ADD 7884 211
+BUY ADD 7810 283
+SELL ADD 7892 486
+SELL ADD 7972 186
+BUY ADD 7863 255
+BUY ADD 7878 407
+SELL CANCEL 778 116
+SELL ADD 7919 162
+SELL ADD 7848 314
+SELL ADD 7817 303
+BUY ADD 7890 284
+SELL ADD 7810 381
+SELL ADD 7955 265
+SELL ADD 7918 357
+SELL CANCEL 61 348
+SELL ADD 7997 121
+BUY ADD 7802 476
+BUY ADD 7997 326
+SELL ADD 7846 100
+SELL ADD 7869 238
+BUY ADD 7941 430
+SELL ADD 7892 390
+SELL CANCEL 208 29
+SELL ADD 7979 447
+BUY ADD 7994 119
+BUY ADD 7831 2
+SELL ADD 7875 161
+SELL ADD 7818 69
+BUY ADD 7991 330
+SELL ADD 7837 44
+BUY CANCEL 152 472
+SELL ADD 7918 290
+SELL ADD 7933 28
+BUY ADD 7884 409
+BUY ADD 7974 97
+BUY ADD 7913 474
+BUY ADD 7946 113
+SELL ADD 7937 431
+BUY CANCEL 450 20
+BUY ADD 7814 383
+BUY ADD 7945 150
+BUY ADD 7975 497
+SELL ADD 7896 225
+BUY ADD 7813 33
+BUY ADD 7883 483
+BUY ADD 7942 320
+BUY CANCEL 112 334
+BUY ADD 7802 315
+SELL ADD 7915 279
+SELL ADD 7870 416
+BUY ADD 7929 246
+SELL ADD 7820 338
+BUY ADD 7855 85
+SELL ADD 7813 61
+BUY CANCEL 624 200
+BUY ADD 7860 195
+BUY ADD 7924 263
+SELL ADD 7860 326
+BUY ADD 7961 436
+SELL ADD 7882 345
+SELL ADD 7867 5
+BUY ADD 7934 479
+BUY CANCEL 838 219
+SELL ADD 7856 366
+BUY ADD 7946 477
+SELL ADD 7968 408
+BUY ADD 7892 294
+SELL ADD 7935 498
+BUY ADD 7832 8
+BUY ADD 7962 422
+SELL CANCEL 590 307
+BUY ADD 7976 311
+SELL ADD 7872 88
+SELL ADD 7914 113
+SELL ADD 7990 283
+SELL ADD 7897 416
+BUY ADD 7953 18
+BUY ADD 7879 328
+SELL CANCEL 742 430
+SELL ADD 7811 243
+SELL ADD 7919 169
+SELL ADD 7900 209
+SELL ADD 7962 384
+SELL ADD 7891 470
+SELL ADD 7908 256
+SELL ADD 7803 402
+BUY CANCEL 542 164
+BUY ADD 7801 82
+BUY ADD 7833 336
+SELL ADD 7952 25
+BUY ADD 7916 101
+SELL ADD 7835 381
+BUY ADD 7980 476
+BUY ADD 7808 126
+BUY CANCEL 328 418
+BUY ADD 7977 19
+BUY ADD 7870 129
+SELL ADD 7871 88
+SELL ADD 7905 88
+SELL ADD 7889 196
+SELL ADD 7910 7
+BUY ADD 7889 442
+BUY CANCEL 707 49
+SELL ADD 7977 238
+BUY ADD 7989 424
+BUY ADD 7824 105
+BUY ADD 7948 239
+BUY ADD 7865 165
+BUY ADD 7869 186
+SELL ADD 7941 126
+BUY CANCEL 803 100
+SELL ADD 7907 207
+BUY ADD 7969 159
+SELL ADD 7932 210
+SELL ADD 7986 38
+BUY ADD 7804 261
+SELL ADD 7925 169
+BUY ADD 7819 402
+SELL CANCEL 877 28
+SELL ADD 7963 117
+SELL ADD 7868 122
+BUY ADD 7976 479
+SELL ADD 7988 482
+SELL ADD 7941 454
+SELL ADD 7901 464
+SELL ADD 7971 478
+BUY CANCEL 16 208
+BUY ADD 7885 307
+BUY ADD 7841 400
+BUY ADD 7866 479
+SELL ADD 7925 162
+SELL ADD 7948 426
+SELL ADD 7982 450
+BUY ADD 7940 259
+SELL CANCEL 712 439
+SELL ADD 7991 129
+BUY ADD 7822 302
+SELL ADD 7920 338
+SELL ADD 7973 202
+SELL ADD 7991 498
+BUY ADD 7900 447
+SELL ADD 7953 366
+SELL CANCEL 802 478
+SELL ADD 7864 473
+SELL ADD 7997 102
+SELL ADD 7818 301
+BUY ADD 7819 144
+SELL ADD 7827 217
+BUY ADD 7828 291
+BUY ADD 7912 225
+BUY CANCEL 221 423
+BUY ADD 7836 396
+SELL ADD 7881 426
+SELL ADD 7995 272
+SELL ADD 7900 459
+SELL ADD 7875 370
+BUY ADD 7837 308
+SELL ADD 7928 450
+SELL CANCEL 865 100
+BUY ADD 7821 473
+SELL ADD 7994 498
+BUY ADD 7985 190
+BUY ADD 7893 25
+SELL ADD 7830 389
+BUY ADD 7805 189
+SELL ADD 7974 399
+BUY CANCEL 511 488
+SELL ADD 7840 238
+SELL ADD 7962 50
+SELL ADD 7867 63
+SELL ADD 7881 286
+SELL ADD 7972 490
+SELL ADD 7992 242
