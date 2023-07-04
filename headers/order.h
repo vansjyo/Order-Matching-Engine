@@ -15,11 +15,11 @@ public:
     int size; // what was the original size of the order placed
     int filled { 0 }; // how much of the order has currently been filled
 
-    std::chrono::system_clock::time_point placedDate; // time at which the order was added to the queue
-    std::chrono::system_clock::time_point actionDate; // time at which the order was removed (cancelled or executed) from the queue
-    
     types type;
     states status { PENDING };
+
+    std::chrono::system_clock::time_point placedDate; // time at which the order was added to the queue
+    std::chrono::system_clock::time_point actionDate; // time at which the order was removed (cancelled or executed) from the queue
 
     Order* next { nullptr };
     Order* prev { nullptr };
@@ -29,6 +29,8 @@ public:
     Order ( int counter, int p, int s, types t );
     
     order_err_codes cancelOrder ( int volume );
+
+    order_err_codes fillOrder ( int fill );
 };
 
 #endif

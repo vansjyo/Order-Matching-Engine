@@ -55,3 +55,37 @@ order_err_codes Order :: cancelOrder ( int volume ) {
     return ORDER_SUCCESS;
     
 }
+
+
+// function to mark an order as executed - used when running the order matchine engine
+order_err_codes Order :: fillOrder ( int fill )
+{
+    switch ( status )
+    {
+        case PENDING:
+            break;
+
+        default:
+            return ORDER_ERR_STATE;
+            
+    }
+
+    // see if the portion to be filled is less than the size of the order
+    if ( fill > size )
+    {
+        return ORDER_ERR_SIZE;
+    }
+
+    filled += fill;
+    actionDate = std::chrono::system_clock::now(); // time at which the order was removed (cancelled or executed) from the queue
+    if( filled == size )
+    {
+        status = EXECUTED;
+        if ( prev != nullptr ) prev->next = next;
+        if ( next != nullptr ) next->prev = prev;
+        // next = nullptr;
+        // prev = nullptr;
+    }
+    return ORDER_SUCCESS;
+}
+

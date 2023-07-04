@@ -21,7 +21,7 @@ public:
 
     bool isEmpty ();
 
-    limit_err_codes removeOrderFromQueue ( const Order* order );
+    limit_err_codes removeOrderFromQueue ( Order* order );
 
     limit_err_codes addOrderToQueue ( Order* order );
 

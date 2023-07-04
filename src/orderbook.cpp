@@ -58,7 +58,6 @@ limit_err_codes OrderBook :: removeSellOrderFromBook ( Order* order )
     // but we need to remove it from the queue now and reset the best sell if applicable
 
     int price = order->limitPrice;
-
     Limit* limit = sellSide[price];
 
     // call the RemoveOrderFromQueue function
@@ -69,24 +68,20 @@ limit_err_codes OrderBook :: removeSellOrderFromBook ( Order* order )
             break;
 
         case LIMIT_SUCCESS:
-            order->actionDate = std::chrono::system_clock::now();
-            order->prev = nullptr;
-            order->next = nullptr;
             numberOfSellOrders -= 1;
 
+            // if the limit object has gotten empty, set the index position to nullptr
             if ( limit->numberOfOrders == 0 ) sellSide[price] = nullptr;
 
-            if ( bestSell->price == order->limitPrice )
-            {
-                bestSell = limit;
+             // if this was the only buy order in the book, set best buy to nullptr
+            if ( numberOfSellOrders == 0 ) bestSell = nullptr;
 
-                // if the cancelled order was from the best sell Limit object and this was the only order in the limit, move to next valid Sell order
-                if ( limit->numberOfOrders == 0 )
-                {
-                    int k = price;
-                    while ( sellSide[k] == nullptr || sellSide[k]->numberOfOrders == 0 ) { k++; }
-                    bestSell = sellSide[k];
-                }
+            // if the cancelled order was from the best sell Limit object and this was the only order in the limit, move to next valid Sell order
+            if ( bestSell != nullptr  &&  bestSell->price == order->limitPrice  &&  limit->numberOfOrders == 0 )
+            {
+                int k = price;
+                while ( sellSide[k] == nullptr || sellSide[k]->numberOfOrders == 0 ) { k++; }
+                bestSell = sellSide[k];
             }
             return LIMIT_SUCCESS;
 
@@ -112,7 +107,6 @@ limit_err_codes OrderBook :: removeBuyOrderFromBook ( Order* order )
     // but we need to remove it from the queue now and reset the best sell if applicable
 
     int price = order->limitPrice;
-
     Limit* limit = buySide[price];
 
     // call the RemoveOrderFromQueue function
@@ -123,24 +117,20 @@ limit_err_codes OrderBook :: removeBuyOrderFromBook ( Order* order )
             break;
 
         case LIMIT_SUCCESS:
-            order->actionDate = std::chrono::system_clock::now();
-            order->prev = nullptr;
-            order->next = nullptr;
             numberOfBuyOrders -= 1;
 
+            // if the limit has gotten empty, set the index position to nullptr
             if ( limit->numberOfOrders == 0 ) buySide[price] = nullptr;
 
-            if ( bestBuy->price == order->limitPrice )
-            {
-                bestBuy = limit;
+            // if this was the only buy order in the book, set best buy to nullptr
+            if ( numberOfBuyOrders == 0 ) bestBuy = nullptr;
 
-                // if the cancelled order was from the best buy Limit object and this was the only order in the limit, move to next valid Buy order
-                if ( limit->numberOfOrders == 0 )
-                {
-                    int k = price;
-                    while ( buySide[k] == nullptr || buySide[k]->numberOfOrders == 0 ) { k--; }
-                    bestBuy = buySide[k];
-                }
+            // if the cancelled order was from the best Buy Limit object and this was the only order in the limit, move to next valid buy order
+            if ( bestBuy != nullptr  &&  bestBuy->price == order->limitPrice  &&  limit->numberOfOrders == 0 )
+            {
+                int k = price;
+                while ( buySide[k] == nullptr || buySide[k]->numberOfOrders == 0 ) { k--; }
+                bestBuy = buySide[k];
             }
             return LIMIT_SUCCESS;
 
@@ -178,6 +168,7 @@ limit_err_codes OrderBook :: addSellOrderToBook ( Order* order )
 
                 if ( (bestSell != nullptr) && (bestBuy!=nullptr) && (bestSell->price <= bestBuy->price) ) 
                 {
+                    printBook(50);
                     switch ( runMatchingEngine() )
                     {
                         case ME_SUCESS:
@@ -225,6 +216,7 @@ limit_err_codes OrderBook :: addBuyOrderToBook ( Order* order )
 
                 if ( (bestSell != nullptr) && (bestBuy!=nullptr) && (bestSell->price <= bestBuy->price) )
                 {
+                    printBook(50);
                     switch ( runMatchingEngine() )
                     {
                         case ME_SUCESS:
@@ -261,83 +253,58 @@ matching_engine_status_codes OrderBook :: runMatchingEngine ()
             bestSell != nullptr  &&  
             bestBuy->price >= bestSell->price )
     {
-        cout << "running...\n";
         Order* buyOrder = bestBuy->head;
         Order* sellOrder = bestSell->head;
 
         int fill = min( (buyOrder->size - buyOrder->filled), (sellOrder->size - sellOrder->filled) );
-        cout << fill << endl;
+        cout << "Order Matched\n";
 
         // orders matched
-        buyOrder->filled += fill;
-        sellOrder->filled += fill;
+        switch ( buyOrder->fillOrder ( fill ) )
+        {
+            case ORDER_SUCCESS:
+                break;
+            default:
+                exit(0);
+                break;  
+        }
 
-        bestBuy->volume -= fill;
-        bestSell->volume -= fill;
+        switch ( sellOrder->fillOrder ( fill ) )
+        {
+            case ORDER_SUCCESS:
+                break;
+            default:
+                exit(0);
+                break;  
+        }
 
         // if the entire buy order has been filled, update the best Sell
         // if there are more orders in the bestBuy Limit, then simply move the head of bestBuy to current_head->prev and reset the next pointer of new head to nullptr
         // if there are no more orders in the limit, loop till you get the next best Limit and reset the bestBuy to the new limit object
-        if ( buyOrder->size == buyOrder->filled )
+        switch ( buyOrder->status )
         {
-            buyOrder->status = EXECUTED;
-            buyOrder->actionDate = std::chrono::system_clock::now();
-            bestBuy->numberOfOrders -= 1;
-            numberOfBuyOrders -= 1;
-
-            if ( bestBuy->numberOfOrders >= 1 )
-            {
-                bestBuy->head = bestBuy->head->prev;
-                bestBuy->head->next = nullptr;
-                
-            }
-            else
-            {
-                // if there was only one buy order (now 0), then set bestBuy as nullptr
-                if ( numberOfBuyOrders == 0 )
-                {
-                    bestBuy = nullptr;
-                }
-                else 
-                {
-                    int k = bestBuy->price;
-                    while ( buySide[k] == nullptr || buySide[k]->numberOfOrders == 0 ) { k--; }
-                    bestBuy = buySide[k];
-                }
-            }
+            case EXECUTED:
+                removeBuyOrderFromBook ( buyOrder );
+                break;
+            case PENDING:
+                bestBuy->volume -= fill;
+                break;
+            default:
+                break;
         }
 
-        // do the same thing for the sell side
-        if ( sellOrder->size == sellOrder->filled )
+        switch ( sellOrder->status )
         {
-            sellOrder->status = EXECUTED;
-            sellOrder->actionDate = std::chrono::system_clock::now();
-            bestSell->numberOfOrders -= 1;
-            numberOfSellOrders -= 1;
-            // cout << bestSell->numberOfOrders << " " << numberOfSellOrders << endl;
-
-            if ( bestSell->numberOfOrders > 1 )
-            {
-                bestSell->head = bestSell->head->prev;
-                bestSell->head->next = nullptr;
-            }
-            else
-            {
-                // if there was only one buy order (now 0), then set bestBuy as nullptr
-                if ( numberOfSellOrders == 0 )
-                {
-                    bestSell = nullptr;
-                }
-                else 
-                {
-                    int k = bestSell->price;
-                    // cout << sellSide[k]->numberOfOrders;
-                    while ( sellSide[k] == nullptr || sellSide[k]->numberOfOrders == 0 ) { k++; }
-                    
-                    bestSell = sellSide[k];
-                }
-            }
+            case EXECUTED:
+                removeSellOrderFromBook ( sellOrder );
+                break;
+            case PENDING:
+                bestSell->volume -= fill;
+                break;
+            default:
+                break;
         }
+
     }
     
     return ME_SUCESS;

@@ -17,7 +17,7 @@ bool Limit :: isEmpty ()
 // removes the order from the queue
 // input:  const Order* order (automatically casts non-constant to const)
 // output: Enum indicating sucess of execution
-limit_err_codes Limit :: removeOrderFromQueue ( const Order* order ) 
+limit_err_codes Limit :: removeOrderFromQueue ( Order* order ) 
 {
 
     if ( head == nullptr || tail == nullptr ) //safety check for debugging the program
@@ -27,6 +27,7 @@ limit_err_codes Limit :: removeOrderFromQueue ( const Order* order )
         // return LIMIT_ERR;
     }
 
+    // update limit parameters
     numberOfOrders -= 1;
     volume -= ( order->size );
     
@@ -35,6 +36,10 @@ limit_err_codes Limit :: removeOrderFromQueue ( const Order* order )
 
     // did not use else if since head and tail can both be pointing to the same order
     if ( tail != nullptr  &&  tail->id == order->id ) tail = order->next;
+
+    // remove the order from the doubly linked  list as well
+    order->prev = nullptr;
+    order->next = nullptr;
 
     return LIMIT_SUCCESS;
 } 
