@@ -14,7 +14,7 @@ void OrderBook :: printBook ( int depth )
         return;
     }
 
-    depth = 100;
+    depth = 200;
 
     printTab ( { " ", " ", " ", "________ Sell ________ \n" } );
     printTab( { " ", " ", " ", "Price", "#Orders", "Volume" } );
@@ -26,7 +26,7 @@ void OrderBook :: printBook ( int depth )
         if ( ptr!=nullptr && !ptr->isEmpty() )
         {
             printTab ( { " ", " ", " "}, 0 );
-            cout << (ptr->price)/100 << ".";
+            cout << (ptr->price)/100 <<  "." << ( ( (ptr->price)%100 < 10 )? "0" : "" );
             printTab ( { (ptr->price)%100, ptr->numberOfOrders, ptr->volume } );
         }
     }
@@ -41,7 +41,7 @@ void OrderBook :: printBook ( int depth )
         // printing the Sell side of the Order Boo
         if( ptr!=nullptr && !ptr->isEmpty() )
         {
-            cout << (ptr->price)/100 << ".";
+            cout << (ptr->price)/100 << "." << ( ( (ptr->price)%100 < 10 )? "0" : "" );
             printTab ( { (ptr->price)%100, ptr->numberOfOrders, ptr->volume } );
         }
     }
@@ -168,7 +168,6 @@ limit_err_codes OrderBook :: addSellOrderToBook ( Order* order )
 
                 if ( (bestSell != nullptr) && (bestBuy!=nullptr) && (bestSell->price <= bestBuy->price) ) 
                 {
-                    printBook(50);
                     switch ( runMatchingEngine() )
                     {
                         case ME_SUCESS:
@@ -216,7 +215,6 @@ limit_err_codes OrderBook :: addBuyOrderToBook ( Order* order )
 
                 if ( (bestSell != nullptr) && (bestBuy!=nullptr) && (bestSell->price <= bestBuy->price) )
                 {
-                    printBook(50);
                     switch ( runMatchingEngine() )
                     {
                         case ME_SUCESS:

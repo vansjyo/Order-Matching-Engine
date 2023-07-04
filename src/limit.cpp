@@ -19,7 +19,6 @@ bool Limit :: isEmpty ()
 // output: Enum indicating sucess of execution
 limit_err_codes Limit :: removeOrderFromQueue ( Order* order ) 
 {
-
     if ( head == nullptr || tail == nullptr ) //safety check for debugging the program
     {
         cout << "How is the head/tail null?\n";

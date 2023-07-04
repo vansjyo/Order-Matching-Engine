@@ -40,7 +40,6 @@ int main() {
         if( row[0] == "printorderbook" ) // can change it to row[0][0]=='p' after debugging phase
         {
             
-            cout << "Hi";
             int depth { 50 };
             try
             {
@@ -58,7 +57,7 @@ int main() {
 
         types orderType = ( getOrderType.find(row[0][0]) == getOrderType.end() ) ? NONE_TYPE : getOrderType.at( row[0][0] );
         actions orderAction = ( getOrderAction.find(row[1][0]) == getOrderAction.end() ) ? NONE_ACTION : getOrderAction.at( row[1][0] );
-        
+
         // check Order Type = BUY / SELL
         switch ( orderType )
         {
@@ -182,7 +181,6 @@ int main() {
                         // log message that order is added to the queue
                         // write a function: matchOrder() which is executed when any order is cancelled or added (especially)
 
-                        
                         // check if the order Price is integer
                         int price;
                         try
@@ -213,7 +211,7 @@ int main() {
                         // check if an order already exists with that ID
                         if ( sellOrderMap.find( orderCounter ) != sellOrderMap.end() ) 
                         {
-                            cerr << "Counter Running Wrong: Duplicate ID\n";
+                            cout << "Counter Running Wrong: Duplicate ID\n";
                             exit(0);
                         }
 
@@ -243,6 +241,7 @@ int main() {
                                 logMessage ( "Something weird happened", logFile );
                                 break;
                         }
+                        cout << FLAG;
                         if ( FLAG ) break; //currently seems like not needed since break anyways, but maybe later would be useful
 
                         break;
@@ -458,9 +457,11 @@ int main() {
             break;
 
         }
-        book.printBook(50);
+        book.printBook(30);
+        
         
     }
+    cout << "\n--------------\n Market session has concluded \n--------------\n";
 
     orderFile.close();
     logFile.close();
